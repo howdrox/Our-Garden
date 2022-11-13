@@ -1,0 +1,682 @@
+{
+    "achillee millefeuille": {
+        "framboisier": 9,
+        "romarin": 3,
+        "mais": 1
+    },
+    "agrume": {
+        "lavande": 3,
+        "tanaisie commune": 4,
+        "absinthe": 1,
+        "oeillet d'inde": 8,
+        "rosier d'inde": 7
+    },
+    "ail": {
+        "pecher": 1,
+        "pommier": 10,
+        "poirier commun": 4,
+        "prunier": 7,
+        "chicoree": 10,
+        "pissenlit": 6,
+        "topinambour": 7,
+        "tomate": 2,
+        "fraisier des bois": 9,
+        "framboisier": 9,
+        "rosier": 1
+    },
+    "aneth": {
+        "chou": 7,
+        "concombre": 6,
+        "cornichon": 8,
+        "bette": 5,
+        "laitue": 6,
+        "oignon": 8
+    },
+    "anis": {
+        "coriandre": 4
+    },
+    "artichaut": {
+        "chou": 7,
+        "laitue": 6,
+        "epinard": 8,
+        "persil": 6,
+        "capucine": 7,
+        "poireau": 1
+    },
+    "asperge": {
+        "pomme de terre": 4,
+        "concombre": 6,
+        "persil": 6,
+        "tomate": 2,
+        "cornichon": 8,
+        "poireau": 1,
+        "pois": 3,
+        "courge": 1,
+        "basilic": 10,
+        "rosier d'inde": 7,
+        "capucine": 7
+    },
+    "aubergine": {
+        "haricot": 3
+    },
+    "basilic": {
+        "tomate": 2,
+        "piment": 7,
+        "concombre": 6,
+        "cornichon": 8,
+        "courge": 1,
+        "melon": 6,
+        "chou": 7,
+        "feve": 5,
+        "courgette": 3,
+        "fenouil": 3,
+        "asperge": 10
+    },
+    "betterave": {
+        "laitue": 6,
+        "carotte": 6,
+        "oignon": 8,
+        "chou": 7,
+        "celeri": 2,
+        "coriandre": 4,
+        "panais": 5
+    },
+    "bourrache officinale": {
+        "fraisier des bois": 9,
+        "haricot": 3
+    },
+    "camomille allemande": {
+        "chou": 7,
+        "oignon": 8,
+        "pois": 3,
+        "pomme de terre": 4
+    },
+    "carotte": {
+        "poireau": 1,
+        "ail": 4,
+        "oignon": 8,
+        "echalote": 9,
+        "ciboulette": 2,
+        "betterave": 7,
+        "pois": 3,
+        "radis": 5,
+        "laitue": 6,
+        "roquette": 10,
+        "panais": 5,
+        "tomate": 2,
+        "haricot": 3,
+        "piment": 7,
+        "lin": 2,
+        "romarin": 3,
+        "sauge": 8,
+        "absinthe": 1,
+        "coriandre": 4
+    },
+    "carotte sauvage": {
+        "chou": 7
+    },
+    "cassis": {
+        "ciboulette": 2,
+        "absinthe": 1,
+        "tanaisie commune": 4,
+        "carotte": 6,
+        "oignon": 8,
+        "navet": 7
+    },
+    "celeri": {
+        "chou": 7,
+        "poireau": 1,
+        "fenouil": 3,
+        "tomate": 2,
+        "haricot": 3,
+        "pois": 3,
+        "concombre": 6,
+        "cornichon": 8,
+        "bette": 5,
+        "betterave": 7,
+        "courgette": 3,
+        "courge": 1,
+        "potiron": 10
+    },
+    "cerfeuil commun": {
+        "radis": 5,
+        "laitue": 6,
+        "chou": 7,
+        "chicoree": 10
+    },
+    "cerisier": {
+        "raifort": 1,
+        "rue fetide": 4
+    },
+    "chicoree": {
+        "epinard": 8,
+        "roquette": 10,
+        "souci": 2
+    },
+    "chou": {
+        "aneth": 2,
+        "celeri": 2,
+        "haricot": 3,
+        "moutarde": 2,
+        "romarin": 3,
+        "tomate": 2,
+        "absinthe": 1,
+        "cosmos": 5,
+        "sauge": 8,
+        "thym": 1,
+        "laitue": 6,
+        "epinard": 8,
+        "oeillet d'inde": 8,
+        "capucine": 7,
+        "pomme de terre": 4,
+        "feve": 5,
+        "pois": 3,
+        "melisse citronnelle": 10,
+        "coriandre": 4,
+        "potiron": 10,
+        "chicoree": 10,
+        "cerfeuil commun": 10,
+        "cumin": 8,
+        "camomille allemande": 6,
+        "bette": 5,
+        "basilic": 10,
+        "artichaut": 8,
+        "carotte sauvage": 8,
+        "coquelicot": 9,
+        "concombre": 6,
+        "cornichon": 8,
+        "panais": 5,
+        "trefle blanc": 5,
+        "phacelie": 6,
+        "matricaire inodore": 5,
+        "achillee millefeuille": 6,
+        "ray-grass": 7,
+        "sarrasin": 5
+    },
+    "ciboulette": {
+        "carotte": 6,
+        "pommier": 10,
+        "pecher": 1,
+        "groseillier": 9,
+        "rosier d'inde": 7,
+        "cassis": 6,
+        "fraisier des bois": 9,
+        "concombre": 6,
+        "courge": 1
+    },
+    "ciboulette chinoise": {
+        "tomate": 2,
+        "pomme de terre": 4
+    },
+    "concombre": {
+        "asperge": 10,
+        "celeri": 2,
+        "chou": 7,
+        "haricot": 3,
+        "laitue": 6,
+        "mais": 1,
+        "pois": 3,
+        "fenouil": 3,
+        "tomate": 2
+    },
+    "coriandre": {
+        "chou": 7,
+        "carotte": 6,
+        "pois": 3,
+        "betterave": 7,
+        "concombre": 6,
+        "pomme de terre": 4,
+        "anis": 9
+    },
+    "cornichon": {
+        "asperge": 10,
+        "celeri": 2,
+        "chou": 7,
+        "haricot": 3,
+        "laitue": 6,
+        "pois": 3,
+        "tomate": 2,
+        "fenouil": 3,
+        "pomme de terre": 4
+    },
+    "cosmos": {
+        "chou": 7,
+        "tomate": 2
+    },
+    "courge": {
+        "haricot": 3,
+        "asperge": 10,
+        "celeri": 2,
+        "chou": 7,
+        "laitue": 6,
+        "mache": 9,
+        "pois": 3,
+        "oignon": 8,
+        "basilic": 10,
+        "ciboulette": 2,
+        "coriandre": 4,
+        "origan": 8,
+        "capucine": 7,
+        "tanaisie commune": 4,
+        "tournesol": 7
+    },
+    "courgette": {
+        "asperge": 10,
+        "celeri": 2,
+        "chou": 7,
+        "fenouil": 3,
+        "haricot": 3,
+        "pois": 3,
+        "mache": 9,
+        "mais": 1,
+        "oignon": 8,
+        "radis": 5
+    },
+    "cresson": {
+        "poireau": 1,
+        "radis": 5
+    },
+    "cumin": {
+        "chou": 7,
+        "pois": 3,
+        "fenouil": 3,
+        "absinthe": 1,
+        "tomate": 2
+    },
+    "echalote": {
+        "carotte": 6
+    },
+    "epinard": {
+        "chou": 7,
+        "rosier": 1,
+        "artichaut": 8,
+        "chicoree": 10,
+        "fraisier des bois": 9,
+        "haricot": 3,
+        "navet": 7,
+        "salsifis cultive": 8,
+        "radis": 5
+    },
+    "fenouil": {
+        "celeri": 2,
+        "poireau": 1,
+        "basilic": 10
+    },
+    "feve": {
+        "chou": 7,
+        "pomme de terre": 4,
+        "mais": 1,
+        "laitue": 6,
+        "sarriette": 2,
+        "basilic": 10
+    },
+    "fraisier des bois": {
+        "poireau": 1,
+        "ail": 4,
+        "ciboulette": 2,
+        "oignon": 8,
+        "pecher": 1
+    },
+    "framboisier": {
+        "souci": 2,
+        "ail": 4,
+        "prunier": 7,
+        "achillee millefeuille": 6,
+        "rue fetide": 4,
+        "tanaisie commune": 4
+    },
+    "genet": {
+        "radis": 5
+    },
+    "groseillier": {
+        "ciboulette": 2,
+        "absinthe": 1,
+        "tanaisie commune": 4,
+        "carotte": 6,
+        "oignon": 8,
+        "navet": 7
+    },
+    "haricot": {
+        "mais": 1,
+        "potiron": 10,
+        "chou": 7,
+        "melon": 6,
+        "pasteque": 8,
+        "carotte": 6,
+        "celeri": 2,
+        "feve": 5,
+        "pomme de terre": 4,
+        "epinard": 8,
+        "laitue": 6,
+        "bourrache officinale": 8,
+        "capucine": 7,
+        "sarriette": 2,
+        "tournesol": 7,
+        "absinthe": 1
+    },
+    "inule visqueuse": {
+        "olivier": 10
+    },
+    "kiwi": {
+        "pomme de terre": 4
+    },
+    "laitue": {
+        "chou": 7,
+        "carotte": 6,
+        "oignon": 8,
+        "pois": 3,
+        "cardon": 8,
+        "betterave": 7,
+        "courge": 1,
+        "feve": 5,
+        "fraisier des bois": 9,
+        "melon": 6,
+        "haricot": 3,
+        "navet": 7,
+        "poireau": 1,
+        "artichaut": 8,
+        "cerfeuil commun": 10,
+        "aneth": 2,
+        "lin": 2
+    },
+    "laurier-sauce": {
+        "persil": 6
+    },
+    "lavande": {
+        "rosier": 1,
+        "agrume": 3
+    },
+    "lin": {
+        "carotte": 6,
+        "laitue": 6
+    },
+    "mache": {
+        "poireau": 1,
+        "oignon": 8,
+        "fraisier des bois": 9,
+        "trefle blanc": 5,
+        "potiron": 10
+    },
+    "mais": {
+        "haricot": 3,
+        "pois": 3,
+        "potiron": 10
+    },
+    "marjolaine": {
+        "piment": 7
+    },
+    "melisse citronnelle": {
+        "chou": 7
+    },
+    "melon": {
+        "laitue": 6,
+        "basilic": 10
+    },
+    "menthe": {
+        "pommier": 10,
+        "poirier commun": 4,
+        "camomille allemande": 6
+    },
+    "morelle de balbis": {
+        "pomme de terre": 4
+    },
+    "moutarde": {
+        "chou": 7,
+        "laitue": 6
+    },
+    "navet": {
+        "epinard": 8,
+        "fraisier des bois": 9
+    },
+    "oignon": {
+        "carotte": 6,
+        "laitue": 6,
+        "mache": 9,
+        "radis": 5,
+        "trefle blanc": 5
+    },
+    "origan": {
+        "courge": 1,
+        "concombre": 6,
+        "piment": 7,
+        "vigne": 9
+    },
+    "panais": {
+        "radis": 5,
+        "betterave": 7,
+        "chou-rave": 10,
+        "oignon": 8
+    },
+    "pasteque": {
+        "haricot": 3,
+        "tomate": 2,
+        "chou": 7
+    },
+    "patate douce": {
+        "haricot": 3
+    },
+    "pecher": {
+        "ail": 4,
+        "ciboulette": 2,
+        "raifort": 1,
+        "fraisier des bois": 9,
+        "chenopode blanc": 1,
+        "verge d'or": 6,
+        "tanaisie commune": 4,
+        "absinthe": 1
+    },
+    "persil": {
+        "tomate": 2,
+        "oignon": 8,
+        "artichaut": 8,
+        "asperge": 10
+    },
+    "phacelie": {
+        "souci": 2
+    },
+    "pissenlit": {
+        "ail": 4
+    },
+    "poireau": {
+        "carotte": 6,
+        "celeri": 2,
+        "asperge": 10,
+        "laitue": 6,
+        "mache": 9,
+        "tomate": 2,
+        "fenouil": 3,
+        "artichaut": 8,
+        "moutarde": 2,
+        "cresson": 2,
+        "fraisier des bois": 9
+    },
+    "poirier commun": {
+        "trefle blanc": 5,
+        "nerprun alaterne": 5
+    },
+    "pois": {
+        "ricin": 1,
+        "pomme de terre": 4,
+        "coriandre": 4,
+        "sarriette": 2
+    },
+    "poivron": {
+        "tomate": 2,
+        "carotte": 6,
+        "chou": 7
+    },
+    "pomme de terre": {
+        "kiwi": 1,
+        "asperge": 10,
+        "camomille allemande": 6,
+        "capucine": 7,
+        "celeri": 2,
+        "chanvre": 7,
+        "chou": 7,
+        "ciboulette chinoise": 1,
+        "coriandre": 4,
+        "feve": 5,
+        "feverolle": 3,
+        "haricot": 3,
+        "morelle de balbis": 7,
+        "pois": 3,
+        "radis": 5,
+        "souci": 2
+    },
+    "pommier": {
+        "phacelie": 6,
+        "panicaut": 8,
+        "camomille allemande": 6,
+        "potentille": 9,
+        "trefle blanc": 5,
+        "capucine": 7,
+        "nerprun alaterne": 5,
+        "noyer": 7
+    },
+    "potiron": {
+        "haricot": 3,
+        "mais": 1,
+        "asperge": 10,
+        "celeri": 2,
+        "chou": 7,
+        "laitue": 6,
+        "mache": 9,
+        "pois": 3,
+        "oignon": 8,
+        "basilic": 10,
+        "ciboulette": 2,
+        "coriandre": 4,
+        "origan": 8,
+        "capucine": 7,
+        "tanaisie commune": 4,
+        "tournesol": 7,
+        "pommier": 10,
+        "radis": 5,
+        "brocoli": 1,
+        "artichaut": 8
+    },
+    "prunier": {
+        "framboisier": 9,
+        "cerisier": 4
+    },
+    "radis": {
+        "cresson": 2,
+        "genet": 3,
+        "cerfeuil commun": 10,
+        "panais": 5,
+        "carotte": 6,
+        "pois": 3,
+        "concombre": 6,
+        "cornichon": 8,
+        "epinard": 8,
+        "haricot": 3,
+        "celeri": 2,
+        "pomme de terre": 4,
+        "tomate": 2,
+        "oignon": 8
+    },
+    "romarin": {
+        "chou": 7,
+        "carotte": 6,
+        "achillee millefeuille": 6
+    },
+    "roquette": {
+        "betterave": 7,
+        "carotte": 6,
+        "chicoree": 10
+    },
+    "rosier": {
+        "lavande": 3,
+        "persil": 6,
+        "rue fetide": 4,
+        "tanaisie commune": 4,
+        "souci": 2,
+        "thym": 1,
+        "tomate": 2,
+        "epinard": 8,
+        "ail": 4,
+        "ciboulette": 2,
+        "oignon": 8,
+        "echalote": 9
+    },
+    "rue fetide": {
+        "cerisier": 4,
+        "rosier": 1,
+        "framboisier": 9
+    },
+    "sarriette": {
+        "pois": 3,
+        "feve": 5,
+        "haricot": 3
+    },
+    "sauge": {
+        "chou": 7,
+        "navet": 7,
+        "haricot": 3,
+        "carotte": 6,
+        "radis": 5,
+        "groseillier": 9,
+        "agrume": 3
+    },
+    "souci": {
+        "fraisier des bois": 9,
+        "chicoree": 10,
+        "haricot": 3,
+        "pomme de terre": 4,
+        "tomate": 2,
+        "rosier": 1,
+        "framboisier": 9
+    },
+    "tanaisie commune": {
+        "pecher": 1,
+        "rosier": 1
+    },
+    "thym": {
+        "chou": 7,
+        "rosier": 1,
+        "fraisier des bois": 9
+    },
+    "tomate": {
+        "rosier d'inde": 7,
+        "oeillet d'inde": 8,
+        "cosmos": 5,
+        "camomille allemande": 6,
+        "chou": 7,
+        "geranium": 2,
+        "inule visqueuse": 5,
+        "pasteque": 8,
+        "concombre": 6,
+        "rosier": 1,
+        "carotte": 6,
+        "epinard": 8,
+        "haricot": 3,
+        "oignon": 8,
+        "persil": 6,
+        "poireau": 1,
+        "laitue": 6
+    },
+    "topinambour": {
+        "epinard": 8
+    },
+    "tournesol": {
+        "courge": 1,
+        "haricot": 3,
+        "mais": 1
+    },
+    "trefle blanc": {
+        "chou": 7,
+        "fraisier des bois": 9,
+        "mache": 9,
+        "poirier commun": 4,
+        "mais": 1,
+        "pommier": 10,
+        "vigne": 9
+    },
+    "vigne": {
+        "origan": 8,
+        "pecher": 1,
+        "pommier": 10,
+        "rosier": 1,
+        "trefle blanc": 5
+    }
+}
