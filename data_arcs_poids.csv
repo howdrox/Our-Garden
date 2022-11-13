@@ -1,0 +1,845 @@
+absinthe;repousse;limace;0
+absinthe;repousse;altise du colza;0
+achillee millefeuille;favorise;framboisier;9
+achillee millefeuille;favorise;romarin;3
+achillee millefeuille;favorise;mais;1
+achillee millefeuille;defavorise;rue fetide;0
+agrume;favorise;lavande;3
+agrume;favorise;tanaisie commune;4
+agrume;favorise;absinthe;1
+agrume;favorise;oeillet d'inde;8
+agrume;favorise;rosier d'inde;7
+ail;favorise;pecher;1
+ail;favorise;pommier;10
+ail;favorise;poirier commun;4
+ail;favorise;prunier;7
+ail;favorise;chicoree;10
+ail;favorise;pissenlit;6
+ail;favorise;topinambour;7
+ail;favorise;tomate;2
+ail;favorise;fraisier des bois;9
+ail;favorise;framboisier;9
+ail;favorise;rosier;1
+ail;defavorise;chou;0
+ail;defavorise;pomme de terre;0
+ail;defavorise;haricot;0
+ail;defavorise;pois;0
+ail;defavorise;souci;0
+ail;defavorise;artichaut;0
+ail;defavorise;asperge;0
+ail;repousse;campagnol;0
+altise du colza;defavorise;chou;0
+altise du colza;defavorise;chou-fleur;0
+altise du colza;defavorise;chou-rave;0
+altise du colza;defavorise;chou rouge;0
+altise du colza;defavorise;radis;0
+altise du colza;defavorise;navet;0
+altise du colza;defavorise;moutarde;0
+amarante;attire;carabe;0
+amarante;defavorise;mache;0
+aneth;favorise;chou;7
+aneth;favorise;concombre;6
+aneth;favorise;cornichon;8
+aneth;favorise;bette;5
+aneth;favorise;laitue;6
+aneth;favorise;oignon;8
+aneth;defavorise;carotte;0
+aneth;repousse;puceron;0
+angelique;attire;chrysope verte;0
+angelique;attire;coccinelle;0
+angelique;defavorise;aneth;0
+angelique;defavorise;celeri;0
+angelique;defavorise;betterave;0
+anis;favorise;coriandre;4
+anis;defavorise;absinthe;0
+araignee;repousse;puceron;0
+artichaut;favorise;chou;7
+artichaut;favorise;laitue;6
+artichaut;favorise;epinard;8
+artichaut;favorise;persil;6
+artichaut;favorise;capucine;7
+artichaut;favorise;poireau;1
+artichaut;defavorise;ail;0
+artichaut;attire;bourdon;0
+asperge;favorise;pomme de terre;4
+asperge;favorise;concombre;6
+asperge;favorise;persil;6
+asperge;favorise;tomate;2
+asperge;favorise;cornichon;8
+asperge;favorise;poireau;1
+asperge;favorise;pois;3
+asperge;favorise;courge;1
+asperge;favorise;basilic;10
+asperge;favorise;rosier d'inde;7
+asperge;favorise;capucine;7
+asperge;defavorise;menthe;0
+asperge;defavorise;betterave;0
+asperge;defavorise;bette;0
+asperge;defavorise;chicoree;0
+asperge;defavorise;oignon;0
+asperge;defavorise;ail;0
+asperge;defavorise;ciboulette;0
+aubergine;favorise;haricot;3
+aubergine;defavorise;pomme de terre;0
+baguenaudier;defavorise;pommier;0
+basilic;favorise;tomate;2
+basilic;favorise;piment;7
+basilic;favorise;concombre;6
+basilic;favorise;cornichon;8
+basilic;favorise;courge;1
+basilic;favorise;melon;6
+basilic;favorise;chou;7
+basilic;favorise;feve;5
+basilic;favorise;courgette;3
+basilic;favorise;fenouil;3
+basilic;favorise;asperge;10
+basilic;defavorise;rue fetide;0
+basilic;defavorise;absinthe;0
+basilic;repousse;nematode;0
+basilic;repousse;puceron;0
+betterave;favorise;laitue;6
+betterave;favorise;carotte;6
+betterave;favorise;oignon;8
+betterave;favorise;chou;7
+betterave;favorise;celeri;2
+betterave;favorise;coriandre;4
+betterave;favorise;panais;5
+betterave;defavorise;tomate;0
+betterave;defavorise;angelique;0
+betterave;defavorise;asperge;0
+betterave;defavorise;epinard;0
+betterave;defavorise;poireau;0
+betterave;defavorise;haricot;0
+betterave;defavorise;mais;0
+bourrache officinale;attire;syrphide;0
+bourrache officinale;attire;bourdon;0
+bourrache officinale;repousse;limace;0
+bourrache officinale;favorise;fraisier des bois;9
+bourrache officinale;favorise;haricot;3
+buis;repousse;campagnol;0
+camomille allemande;attire;coccinelle;0
+camomille allemande;repousse;nematode;0
+camomille allemande;favorise;chou;7
+camomille allemande;favorise;oignon;8
+camomille allemande;favorise;pois;3
+camomille allemande;favorise;pomme de terre;4
+camomille allemande;defavorise;rue fetide;0
+camomille allemande;repousse;puceron;0
+campagnol;defavorise;carotte;0
+campagnol;defavorise;panais;0
+capucine;repousse;puceron;0
+carabe;repousse;limace;0
+carotte;favorise;poireau;1
+carotte;favorise;ail;4
+carotte;favorise;oignon;8
+carotte;favorise;echalote;9
+carotte;favorise;ciboulette;2
+carotte;favorise;betterave;7
+carotte;favorise;pois;3
+carotte;favorise;radis;5
+carotte;favorise;laitue;6
+carotte;favorise;roquette;10
+carotte;favorise;panais;5
+carotte;favorise;tomate;2
+carotte;favorise;haricot;3
+carotte;favorise;piment;7
+carotte;favorise;lin;2
+carotte;favorise;romarin;3
+carotte;favorise;sauge;8
+carotte;favorise;absinthe;1
+carotte;favorise;coriandre;4
+carotte;defavorise;aneth;0
+carotte;defavorise;mais;0
+carotte;defavorise;bette;0
+carotte;attire;carabe;0
+carotte;defavorise;carotte sauvage;0
+carotte;repousse;thrips de l'oignon;0
+carotte;repousse;teigne du poireau;0
+carotte sauvage;favorise;chou;7
+carotte sauvage;defavorise;carotte;0
+cassis;favorise;ciboulette;2
+cassis;favorise;absinthe;1
+cassis;favorise;tanaisie commune;4
+cassis;favorise;carotte;6
+cassis;favorise;oignon;8
+cassis;favorise;navet;7
+cassis;defavorise;mais;0
+celeri;favorise;chou;7
+celeri;favorise;poireau;1
+celeri;favorise;fenouil;3
+celeri;favorise;tomate;2
+celeri;favorise;haricot;3
+celeri;favorise;pois;3
+celeri;favorise;concombre;6
+celeri;favorise;cornichon;8
+celeri;favorise;bette;5
+celeri;favorise;betterave;7
+celeri;favorise;courgette;3
+celeri;favorise;courge;1
+celeri;favorise;potiron;10
+celeri;defavorise;mais;0
+celeri;defavorise;persil;0
+celeri;defavorise;laitue;0
+celeri;defavorise;angelique;0
+cerfeuil commun;favorise;radis;5
+cerfeuil commun;favorise;laitue;6
+cerfeuil commun;favorise;chou;7
+cerfeuil commun;favorise;chicoree;10
+cerfeuil commun;repousse;fourmi;0
+cerfeuil commun;repousse;limace;0
+cerfeuil commun;repousse;escargot;0
+cerfeuil commun;repousse;puceron;0
+cerisier;favorise;raifort;1
+cerisier;favorise;rue fetide;4
+chanvre;repousse;courtiliere;0
+chicoree;favorise;epinard;8
+chicoree;favorise;roquette;10
+chicoree;favorise;souci;2
+chicoree;defavorise;chou;0
+chicoree;defavorise;asperge;0
+chicoree;defavorise;navet;0
+chicoree;repousse;campagnol;0
+chou;defavorise;fraisier des bois;0
+chou;defavorise;poireau;0
+chou;defavorise;radis;0
+chou;defavorise;mais;0
+chou;defavorise;mache;0
+chou;defavorise;fenouil;0
+chou;defavorise;cresson;0
+chou;defavorise;courgette;0
+chou;defavorise;origan;0
+chou;defavorise;piment;0
+chou;favorise;aneth;2
+chou;favorise;celeri;2
+chou;favorise;haricot;3
+chou;favorise;moutarde;2
+chou;favorise;romarin;3
+chou;favorise;tomate;2
+chou;favorise;absinthe;1
+chou;favorise;cosmos;5
+chou;favorise;sauge;8
+chou;favorise;thym;1
+chou;favorise;laitue;6
+chou;favorise;epinard;8
+chou;favorise;oeillet d'inde;8
+chou;favorise;capucine;7
+chou;favorise;pomme de terre;4
+chou;favorise;feve;5
+chou;favorise;pois;3
+chou;favorise;melisse citronnelle;10
+chou;favorise;coriandre;4
+chou;favorise;potiron;10
+chou;favorise;chicoree;10
+chou;favorise;cerfeuil commun;10
+chou;favorise;cumin;8
+chou;favorise;camomille allemande;6
+chou;favorise;bette;5
+chou;favorise;basilic;10
+chou;favorise;artichaut;8
+chou;favorise;carotte sauvage;8
+chou;favorise;coquelicot;9
+chou;favorise;concombre;6
+chou;favorise;cornichon;8
+chou;favorise;panais;5
+chou;favorise;trefle blanc;5
+chou;favorise;phacelie;6
+chou;favorise;matricaire inodore;5
+chou;favorise;achillee millefeuille;6
+chou;favorise;ray-grass;7
+chou;favorise;sarrasin;5
+chrysope verte;repousse;puceron;0
+ciboulette;favorise;carotte;6
+ciboulette;favorise;pommier;10
+ciboulette;favorise;pecher;1
+ciboulette;favorise;groseillier;9
+ciboulette;favorise;rosier d'inde;7
+ciboulette;favorise;cassis;6
+ciboulette;favorise;fraisier des bois;9
+ciboulette;favorise;concombre;6
+ciboulette;favorise;courge;1
+ciboulette;defavorise;asperge;0
+ciboulette;defavorise;radis;0
+ciboulette;defavorise;haricot;0
+ciboulette chinoise;favorise;tomate;2
+ciboulette chinoise;favorise;pomme de terre;4
+concombre;favorise;asperge;10
+concombre;favorise;celeri;2
+concombre;favorise;chou;7
+concombre;favorise;haricot;3
+concombre;favorise;laitue;6
+concombre;favorise;mais;1
+concombre;favorise;pois;3
+concombre;favorise;fenouil;3
+concombre;favorise;tomate;2
+coriandre;favorise;chou;7
+coriandre;favorise;carotte;6
+coriandre;favorise;pois;3
+coriandre;favorise;betterave;7
+coriandre;favorise;concombre;6
+coriandre;favorise;pomme de terre;4
+coriandre;favorise;anis;9
+coriandre;defavorise;fenouil;0
+coriandre;defavorise;sauge;0
+coriandre;repousse;puceron;0
+cornichon;favorise;asperge;10
+cornichon;favorise;celeri;2
+cornichon;favorise;chou;7
+cornichon;favorise;haricot;3
+cornichon;favorise;laitue;6
+cornichon;favorise;pois;3
+cornichon;favorise;tomate;2
+cornichon;favorise;fenouil;3
+cornichon;favorise;pomme de terre;4
+cosmos;favorise;chou;7
+cosmos;favorise;tomate;2
+cosmos;repousse;nematode;0
+cosmos;attire;araignee;0
+cosmos;attire;coccinelle;0
+courge;favorise;haricot;3
+courge;favorise;asperge;10
+courge;favorise;celeri;2
+courge;favorise;chou;7
+courge;favorise;laitue;6
+courge;favorise;mache;9
+courge;favorise;pois;3
+courge;favorise;oignon;8
+courge;favorise;basilic;10
+courge;favorise;ciboulette;2
+courge;favorise;coriandre;4
+courge;favorise;origan;8
+courge;favorise;capucine;7
+courge;favorise;tanaisie commune;4
+courge;favorise;tournesol;7
+courge;defavorise;radis;0
+courge;defavorise;fenouil;0
+courgette;favorise;asperge;10
+courgette;favorise;celeri;2
+courgette;favorise;chou;7
+courgette;favorise;fenouil;3
+courgette;favorise;haricot;3
+courgette;favorise;pois;3
+courgette;favorise;mache;9
+courgette;favorise;mais;1
+courgette;favorise;oignon;8
+courgette;favorise;radis;5
+cresson;favorise;poireau;1
+cresson;favorise;radis;5
+cresson;defavorise;chou;0
+cresson;repousse;campagnol;0
+cresson;repousse;puceron;0
+cresson;repousse;chenille;0
+cresson;repousse;fourmi;0
+cresson;repousse;escargot;0
+cumin;favorise;chou;7
+cumin;favorise;pois;3
+cumin;favorise;fenouil;3
+cumin;favorise;absinthe;1
+cumin;favorise;tomate;2
+doryphore;defavorise;pomme de terre;0
+echalote;defavorise;chou;0
+echalote;defavorise;haricot;0
+echalote;defavorise;pois;0
+echalote;favorise;carotte;6
+epinard;favorise;chou;7
+epinard;favorise;rosier;1
+epinard;favorise;artichaut;8
+epinard;favorise;chicoree;10
+epinard;favorise;fraisier des bois;9
+epinard;favorise;haricot;3
+epinard;favorise;navet;7
+epinard;favorise;salsifis cultive;8
+epinard;favorise;radis;5
+fenouil;favorise;celeri;2
+fenouil;favorise;poireau;1
+fenouil;favorise;basilic;10
+fenouil;defavorise;tomate;0
+fenouil;defavorise;absinthe;0
+fenouil;defavorise;concombre;0
+fenouil;defavorise;piment;0
+fenouil;defavorise;epinard;0
+fenouil;defavorise;haricot;0
+fenouil;defavorise;courge;0
+fenouil;defavorise;souci;0
+fenouil;defavorise;navet;0
+fenouil;defavorise;chou;0
+fenouil;defavorise;coriandre;0
+fenouil;defavorise;cumin;0
+fenouil;attire;araignee;0
+fenouil;attire;syrphide;0
+fenouil;attire;papillon;0
+fenouil;repousse;puceron;0
+fenouil;repousse;lievre;0
+feve;favorise;chou;7
+feve;favorise;pomme de terre;4
+feve;favorise;mais;1
+feve;favorise;laitue;6
+feve;favorise;sarriette;2
+feve;favorise;basilic;10
+feve;defavorise;oignon;0
+fraisier des bois;favorise;poireau;1
+fraisier des bois;favorise;ail;4
+fraisier des bois;favorise;ciboulette;2
+fraisier des bois;favorise;oignon;8
+fraisier des bois;favorise;pecher;1
+fraisier des bois;defavorise;chou;0
+framboisier;favorise;souci;2
+framboisier;favorise;ail;4
+framboisier;favorise;prunier;7
+framboisier;favorise;achillee millefeuille;6
+framboisier;favorise;rue fetide;4
+framboisier;favorise;tanaisie commune;4
+framboisier;defavorise;myrtille;0
+framboisier;defavorise;ronce;0
+fusain d'europe;attire;coccinelle;0
+fusain d'europe;attire;chrysope verte;0
+genet;favorise;radis;5
+genet;repousse;altise du colza;0
+genevrier;attire;coccinelle;0
+geranium;attire;punaise;0
+groseillier;favorise;ciboulette;2
+groseillier;favorise;absinthe;1
+groseillier;favorise;tanaisie commune;4
+groseillier;favorise;carotte;6
+groseillier;favorise;oignon;8
+groseillier;favorise;navet;7
+groseillier;defavorise;mais;0
+haricot;favorise;mais;1
+haricot;favorise;potiron;10
+haricot;favorise;chou;7
+haricot;favorise;melon;6
+haricot;favorise;pasteque;8
+haricot;favorise;carotte;6
+haricot;favorise;celeri;2
+haricot;favorise;feve;5
+haricot;favorise;pomme de terre;4
+haricot;favorise;epinard;8
+haricot;favorise;laitue;6
+haricot;favorise;bourrache officinale;8
+haricot;favorise;capucine;7
+haricot;favorise;sarriette;2
+haricot;favorise;tournesol;7
+haricot;favorise;absinthe;1
+haricot;defavorise;poireau;0
+haricot;defavorise;ail;0
+haricot;defavorise;echalote;0
+haricot;defavorise;ciboulette;0
+haricot;defavorise;oignon;0
+haricot;defavorise;fenouil;0
+haricot;defavorise;pois;0
+haricot;defavorise;courgette;0
+haricot;defavorise;kiwi;0
+inule visqueuse;favorise;olivier;10
+inule visqueuse;attire;punaise;0
+kiwi;favorise;pomme de terre;4
+kiwi;defavorise;mais;0
+kiwi;defavorise;haricot;0
+kiwi;defavorise;mache;0
+kiwi;defavorise;navet;0
+kiwi;defavorise;oignon;0
+laitue;favorise;chou;7
+laitue;favorise;carotte;6
+laitue;favorise;oignon;8
+laitue;favorise;pois;3
+laitue;favorise;cardon;8
+laitue;favorise;betterave;7
+laitue;favorise;courge;1
+laitue;favorise;feve;5
+laitue;favorise;fraisier des bois;9
+laitue;favorise;melon;6
+laitue;favorise;haricot;3
+laitue;favorise;navet;7
+laitue;favorise;poireau;1
+laitue;favorise;artichaut;8
+laitue;favorise;cerfeuil commun;10
+laitue;favorise;aneth;2
+laitue;favorise;lin;2
+laitue;defavorise;persil;0
+laitue;defavorise;celeri;0
+laitue;defavorise;tournesol;0
+laitue;defavorise;panais;0
+laitue;defavorise;mais;0
+laitue;repousse;altise du colza;0
+laurier-sauce;defavorise;vigne;0
+laurier-sauce;favorise;persil;6
+laurier-sauce;defavorise;cerfeuil commun;0
+lavande;favorise;rosier;1
+lavande;favorise;agrume;3
+lavande;repousse;fourmi;0
+lavande;repousse;puceron;0
+lavande;defavorise;melisse citronnelle;0
+lin;favorise;carotte;6
+lin;favorise;laitue;6
+mache;defavorise;amarante;0
+mache;defavorise;kiwi;0
+mache;defavorise;chou;0
+mache;favorise;poireau;1
+mache;favorise;oignon;8
+mache;favorise;fraisier des bois;9
+mache;favorise;trefle blanc;5
+mache;favorise;potiron;10
+mais;defavorise;courgette;0
+mais;favorise;haricot;3
+mais;favorise;pois;3
+mais;favorise;potiron;10
+mais;defavorise;oignon;0
+mais;defavorise;carotte;0
+mais;defavorise;celeri;0
+mais;defavorise;chou;0
+mais;repousse;puceron;0
+marjolaine;repousse;fourmi;0
+marjolaine;favorise;piment;7
+melilot;repousse;campagnol;0
+melilot;attire;syrphide;0
+melisse citronnelle;favorise;chou;7
+melisse citronnelle;defavorise;sauge;0
+melisse citronnelle;defavorise;lavande;0
+melon;favorise;laitue;6
+melon;favorise;basilic;10
+menthe;favorise;pommier;10
+menthe;favorise;poirier commun;4
+menthe;favorise;camomille allemande;6
+menthe;defavorise;fenouil;0
+menthe;defavorise;asperge;0
+menthe;defavorise;carotte sauvage;0
+menthe;attire;bourdon;0
+menthe;attire;coccinelle;0
+menthe;attire;papillon;0
+menthe;repousse;puceron;0
+mildiou;defavorise;tomate;0
+mildiou;defavorise;pomme de terre;0
+morelle de balbis;repousse;doryphore;0
+morelle de balbis;repousse;nematode;0
+morelle de balbis;favorise;pomme de terre;4
+mouche de la carotte;defavorise;carotte;0
+moutarde;favorise;chou;7
+moutarde;favorise;laitue;6
+moutarde;defavorise;tournesol;0
+moutarde;attire;syrphide;0
+narcisse;repousse;campagnol;0
+navet;favorise;epinard;8
+navet;favorise;fraisier des bois;9
+navet;defavorise;kiwi;0
+navet;defavorise;sarriette;0
+navet;defavorise;fenouil;0
+navet;defavorise;chicoree;0
+nematode;defavorise;fraisier des bois;0
+nematode;defavorise;artichaut;0
+nematode;defavorise;carotte;0
+nematode;defavorise;pois;0
+nematode;defavorise;epinard;0
+nematode;defavorise;betterave;0
+nematode;defavorise;chou;0
+nematode;defavorise;chou-fleur;0
+nematode;defavorise;chou-rave;0
+nematode;defavorise;chou rouge;0
+noisetier;attire;syrphide;0
+noyer;repousse;campagnol;0
+noyer;defavorise;tomate;0
+noyer;defavorise;cassis;0
+noyer;defavorise;chou;0
+noyer;defavorise;rhubarbe;0
+noyer;defavorise;pomme de terre;0
+noyer;attire;syrphide;0
+oeillet d'inde;repousse;puceron;0
+oignon;favorise;carotte;6
+oignon;favorise;laitue;6
+oignon;favorise;mache;9
+oignon;favorise;radis;5
+oignon;favorise;trefle blanc;5
+oignon;defavorise;haricot;0
+oignon;defavorise;pois;0
+oignon;defavorise;kiwi;0
+oignon;repousse;puceron;0
+oignon;repousse;mouche de la carotte;0
+oignon;repousse;puceron de la carotte;0
+origan;favorise;courge;1
+origan;favorise;concombre;6
+origan;favorise;piment;7
+origan;favorise;vigne;9
+origan;defavorise;chou;0
+orme;attire;puceron;0
+ortie;attire;punaise;0
+ortie;attire;coccinelle;0
+ortie;attire;carabe;0
+panais;favorise;radis;5
+panais;favorise;betterave;7
+panais;favorise;chou-rave;10
+panais;favorise;oignon;8
+panais;defavorise;laitue;0
+pasteque;favorise;haricot;3
+pasteque;favorise;tomate;2
+pasteque;favorise;chou;7
+patate douce;favorise;haricot;3
+patate douce;defavorise;poivron;0
+patate douce;defavorise;piment;0
+pecher;favorise;ail;4
+pecher;favorise;ciboulette;2
+pecher;favorise;raifort;1
+pecher;favorise;fraisier des bois;9
+pecher;favorise;chenopode blanc;1
+pecher;favorise;verge d'or;6
+pecher;favorise;tanaisie commune;4
+pecher;favorise;absinthe;1
+pecher;defavorise;erable;0
+pecher;defavorise;orme;0
+pecher;defavorise;noisetier;0
+pecher;defavorise;fusain d'europe;0
+persil;favorise;tomate;2
+persil;favorise;oignon;8
+persil;favorise;artichaut;8
+persil;favorise;asperge;10
+persil;defavorise;celeri;0
+persil;defavorise;poireau;0
+persil;defavorise;pois;0
+persil;defavorise;laitue;0
+phacelie;attire;abeille;0
+phacelie;attire;bourdon;0
+phacelie;repousse;puceron;0
+phacelie;repousse;nematode;0
+phacelie;attire;punaise;0
+phacelie;attire;coccinelle;0
+phacelie;attire;syrphide;0
+phacelie;favorise;souci;2
+pissenlit;favorise;ail;4
+pissenlit;repousse;campagnol;0
+poireau;favorise;carotte;6
+poireau;favorise;celeri;2
+poireau;favorise;asperge;10
+poireau;favorise;laitue;6
+poireau;favorise;mache;9
+poireau;favorise;tomate;2
+poireau;favorise;fenouil;3
+poireau;favorise;artichaut;8
+poireau;favorise;moutarde;2
+poireau;favorise;cresson;2
+poireau;defavorise;bette;0
+poireau;defavorise;betterave;0
+poireau;defavorise;chou;0
+poireau;defavorise;haricot;0
+poireau;defavorise;persil;0
+poireau;defavorise;pois;0
+poireau;favorise;fraisier des bois;9
+poireau;repousse;mouche de la carotte;0
+poirier commun;favorise;trefle blanc;5
+poirier commun;favorise;nerprun alaterne;5
+poirier commun;defavorise;genevrier;0
+pois;favorise;ricin;1
+pois;favorise;pomme de terre;4
+pois;favorise;coriandre;4
+pois;favorise;sarriette;2
+pois;defavorise;oignon;0
+pois;defavorise;ail;0
+pois;defavorise;echalote;0
+pois;defavorise;poireau;0
+pois;defavorise;persil;0
+poivron;favorise;tomate;2
+poivron;favorise;carotte;6
+poivron;favorise;chou;7
+pomme de terre;favorise;kiwi;1
+pomme de terre;favorise;asperge;10
+pomme de terre;favorise;camomille allemande;6
+pomme de terre;favorise;capucine;7
+pomme de terre;favorise;celeri;2
+pomme de terre;favorise;chanvre;7
+pomme de terre;favorise;chou;7
+pomme de terre;favorise;ciboulette chinoise;1
+pomme de terre;favorise;coriandre;4
+pomme de terre;favorise;feve;5
+pomme de terre;favorise;feverolle;3
+pomme de terre;favorise;haricot;3
+pomme de terre;favorise;morelle de balbis;7
+pomme de terre;favorise;pois;3
+pomme de terre;favorise;radis;5
+pomme de terre;favorise;souci;2
+pomme de terre;defavorise;concombre;0
+pommier;favorise;phacelie;6
+pommier;favorise;panicaut;8
+pommier;favorise;camomille allemande;6
+pommier;favorise;potentille;9
+pommier;favorise;trefle blanc;5
+pommier;favorise;capucine;7
+pommier;favorise;nerprun alaterne;5
+pommier;favorise;noyer;7
+pommier;defavorise;baguenaudier;0
+potentille;defavorise;pommier;0
+potiron;favorise;haricot;3
+potiron;favorise;mais;1
+potiron;favorise;asperge;10
+potiron;favorise;celeri;2
+potiron;favorise;chou;7
+potiron;favorise;laitue;6
+potiron;favorise;mache;9
+potiron;favorise;pois;3
+potiron;favorise;oignon;8
+potiron;favorise;basilic;10
+potiron;favorise;ciboulette;2
+potiron;favorise;coriandre;4
+potiron;favorise;origan;8
+potiron;favorise;capucine;7
+potiron;favorise;tanaisie commune;4
+potiron;favorise;tournesol;7
+potiron;defavorise;fenouil;0
+potiron;favorise;pommier;10
+potiron;favorise;radis;5
+potiron;favorise;brocoli;1
+potiron;favorise;artichaut;8
+prunier;favorise;framboisier;9
+prunier;favorise;cerisier;4
+prunier;defavorise;fusain d'europe;0
+prunier;defavorise;erable;0
+prunier;defavorise;orme;0
+prunier;defavorise;noisetier;0
+puceron de la carotte;defavorise;carotte;0
+puceron;defavorise;pommier;0
+puceron;defavorise;rosier;0
+radis;favorise;cresson;2
+radis;favorise;genet;3
+radis;favorise;cerfeuil commun;10
+radis;favorise;panais;5
+radis;favorise;carotte;6
+radis;favorise;pois;3
+radis;favorise;concombre;6
+radis;favorise;cornichon;8
+radis;favorise;epinard;8
+radis;favorise;haricot;3
+radis;favorise;celeri;2
+radis;favorise;pomme de terre;4
+radis;favorise;tomate;2
+radis;favorise;oignon;8
+radis;defavorise;ciboulette;0
+radis;defavorise;chou;0
+ricin;repousse;nematode;0
+ricin;repousse;doryphore;0
+romarin;favorise;chou;7
+romarin;favorise;carotte;6
+romarin;favorise;achillee millefeuille;6
+romarin;defavorise;sauge;0
+romarin;repousse;altise du colza;0
+roquette;favorise;betterave;7
+roquette;favorise;carotte;6
+roquette;favorise;chicoree;10
+rosier;favorise;lavande;3
+rosier;favorise;persil;6
+rosier;favorise;rue fetide;4
+rosier;favorise;tanaisie commune;4
+rosier;favorise;souci;2
+rosier;favorise;thym;1
+rosier;favorise;tomate;2
+rosier;favorise;epinard;8
+rosier;favorise;ail;4
+rosier;favorise;ciboulette;2
+rosier;favorise;oignon;8
+rosier;favorise;echalote;9
+rue fetide;favorise;cerisier;4
+rue fetide;favorise;rosier;1
+rue fetide;favorise;framboisier;9
+rue fetide;repousse;rat;0
+rue fetide;repousse;limace;0
+rue fetide;repousse;puceron;0
+rue fetide;repousse;nematode;0
+rue fetide;defavorise;basilic;0
+rue fetide;defavorise;camomille allemande;0
+rue fetide;defavorise;achillee millefeuille;0
+sarrasin;attire;syrphide;0
+sarrasin;attire;papillon;0
+sarriette;favorise;pois;3
+sarriette;favorise;feve;5
+sarriette;favorise;haricot;3
+sarriette;defavorise;sauge;0
+sarriette;repousse;puceron;0
+sarriette;defavorise;navet;0
+sarriette;defavorise;radis;0
+sauge;favorise;chou;7
+sauge;defavorise;thym;0
+sauge;defavorise;romarin;0
+sauge;defavorise;melisse citronnelle;0
+sauge;defavorise;sarriette;0
+sauge;defavorise;coriandre;0
+sauge;defavorise;absinthe;0
+sauge;favorise;navet;7
+sauge;favorise;haricot;3
+sauge;favorise;carotte;6
+sauge;favorise;radis;5
+sauge;favorise;groseillier;9
+sauge;favorise;agrume;3
+souci;favorise;fraisier des bois;9
+souci;favorise;chicoree;10
+souci;favorise;haricot;3
+souci;favorise;pomme de terre;4
+souci;favorise;tomate;2
+souci;favorise;rosier;1
+souci;defavorise;fenouil;0
+souci;defavorise;ail;0
+souci;defavorise;sarrasin;0
+souci;favorise;framboisier;9
+souci;repousse;nematode;0
+souci;attire;coccinelle;0
+souci;attire;punaise;0
+sureau;repousse;altise du colza;0
+sureau;repousse;fourmi;0
+sureau;repousse;campagnol;0
+syrphide;repousse;puceron;0
+tanaisie commune;favorise;pecher;1
+tanaisie commune;favorise;rosier;1
+tanaisie commune;repousse;puceron;0
+tanaisie commune;attire;syrphide;0
+tanaisie commune;attire;coccinelle;0
+tanaisie commune;repousse;fourmi;0
+teigne du poireau;defavorise;poireau;0
+thrips de l'oignon;defavorise;oignon;0
+thym;favorise;chou;7
+thym;favorise;rosier;1
+thym;favorise;fraisier des bois;9
+thym;defavorise;sauge;0
+thym;repousse;limace;0
+thym;repousse;escargot;0
+thym;repousse;puceron;0
+tomate;favorise;rosier d'inde;7
+tomate;favorise;oeillet d'inde;8
+tomate;favorise;cosmos;5
+tomate;favorise;camomille allemande;6
+tomate;favorise;chou;7
+tomate;favorise;geranium;2
+tomate;favorise;inule visqueuse;5
+tomate;favorise;pasteque;8
+tomate;favorise;concombre;6
+tomate;favorise;rosier;1
+tomate;favorise;carotte;6
+tomate;favorise;epinard;8
+tomate;favorise;haricot;3
+tomate;favorise;oignon;8
+tomate;favorise;persil;6
+tomate;favorise;poireau;1
+tomate;favorise;laitue;6
+tomate;defavorise;pomme de terre;0
+tomate;defavorise;tournesol;0
+tomate;defavorise;betterave;0
+tomate;defavorise;fenouil;0
+tomate;defavorise;fraisier des bois;0
+tomate;repousse;altise du colza;0
+tomate;repousse;fourmi;0
+tomate;repousse;mouche de la carotte;0
+topinambour;favorise;epinard;8
+tournesol;favorise;courge;1
+tournesol;favorise;haricot;3
+tournesol;favorise;mais;1
+tournesol;defavorise;radis;0
+tournesol;defavorise;moutarde;0
+tournesol;defavorise;tomate;0
+tournesol;defavorise;laitue;0
+tournesol;defavorise;concombre;0
+trefle blanc;favorise;chou;7
+trefle blanc;favorise;fraisier des bois;9
+trefle blanc;favorise;mache;9
+trefle blanc;favorise;poirier commun;4
+trefle blanc;favorise;mais;1
+trefle blanc;favorise;pommier;10
+trefle blanc;favorise;vigne;9
+trefle blanc;defavorise;groseillier;0
+trefle blanc;repousse;puceron;0
+vigne;favorise;origan;8
+vigne;favorise;pecher;1
+vigne;favorise;pommier;10
+vigne;favorise;rosier;1
+vigne;favorise;trefle blanc;5
+vigne;defavorise;laurier-sauce;0

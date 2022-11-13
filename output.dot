@@ -1,0 +1,10 @@
+digraph {
+ 'fraisier des bois' -> 'ail'
+ 'ail' -> 'framboisier'
+ 'framboisier' -> 'prunier'
+ 'prunier' -> 'cerisier'
+ 'cerisier' -> 'rue fetide'
+ 'rue fetide' -> 'rosier'
+ 'rosier' -> 'souci'
+ 'souci' -> 'fraisier des bois'
+}
