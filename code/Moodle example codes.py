@@ -2,7 +2,7 @@
 
 import csv
 
-with open("../csv/data_arcs.csv", newline="") as csvfile:
+with open("./csv/data_arcs.csv", newline="") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
 
     adjacents = {}  # Dictionnaire contenant comme clefs les sommets et

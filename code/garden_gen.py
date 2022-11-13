@@ -1,4 +1,7 @@
-from usefull_data import adjascents
+import json
+
+with open('./json/favorise.json') as f:
+    favorise=json.load(f)
 
 
 def calcul_chemin_BFS(adjacents, depart, arrivee):
@@ -64,6 +67,6 @@ def mk_diagram(path):
 
 
 ingredients = ["fraisier des bois", "framboisier", "cerisier"]
-path = shortest_cycle(adjascents, ingredients)
+path = shortest_cycle(favorise, ingredients)
 print(path)
 mk_diagram(path)
