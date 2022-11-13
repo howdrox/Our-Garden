@@ -17,7 +17,7 @@ with open("./csv/data_arcs.csv", newline="") as csvfile:
                 adjacents[source] = [cible]  # on cree l'entree
             else:  # sinon on ajoute l'element a la liste des sommets adjacents
                 adjacents[source].append(cible)
-    
+
     print(adjacents)
 
 
