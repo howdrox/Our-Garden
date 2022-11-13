@@ -1,7 +1,7 @@
 import json
 
-with open('./json/favorise.json') as f:
-    favorise=json.load(f)
+with open("./json/favorise.json") as f:
+    favorise = json.load(f)
 
 
 def calcul_chemin_BFS(adjacents, depart, arrivee):
