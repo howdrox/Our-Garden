@@ -1,10 +1,12 @@
 digraph {
- 'fraisier des bois' -> 'ail'
- 'ail' -> 'framboisier'
- 'framboisier' -> 'prunier'
- 'prunier' -> 'cerisier'
- 'cerisier' -> 'rue fetide'
- 'rue fetide' -> 'rosier'
- 'rosier' -> 'souci'
- 'souci' -> 'fraisier des bois'
+ "fraisier des bois" -> "ail"
+ "ail" -> "framboisier"
+ "framboisier" -> "prunier"
+ "prunier" -> "cerisier"
+ "cerisier" -> "rue fetide"
+ "rue fetide" -> "rosier"
+ "rosier" -> "ciboulette"
+ "ciboulette" -> "cassis"
+ "cassis" -> "ciboulette"
+ "ciboulette" -> "fraisier des bois"
 }
