@@ -4,6 +4,7 @@ import os
 
 
 def calcul_chemin_BFS(adjacents, depart, arrivee):
+    "Returns the first path that goes from `depart` to `arrivee`"
     a_explorer = [depart]
     deja_collectes = [depart]
     chemins = {depart: [depart]}
@@ -25,6 +26,7 @@ def calcul_chemin_BFS(adjacents, depart, arrivee):
 
 
 def direct_cycle(adjascents, ingredients):
+    "Returns the cycle that goes through each `ingredients` in order"
 
     if len(ingredients) < 2:
         print("Not enough ingredients")
@@ -51,17 +53,18 @@ def direct_cycle(adjascents, ingredients):
 
 
 def shortest_cycle(adjascents, ingredients):
+    "Returns the shortest cycle that goes through each `ingredients` by checking for all possible permutations"
     all_perm = list(itertools.permutations(ingredients, len(ingredients)))
 
-    shortest_path = all_perm[0]
+    shortest_cycle = direct_cycle(adjascents, all_perm[0])
     min_lenght = len(direct_cycle(adjascents, all_perm[0]))
     for i in range(1, len(all_perm)):
         length = len(direct_cycle(adjascents, all_perm[i]))
         if length < min_lenght:
             min_lenght = length
-            shortest_path = all_perm[i]
+            shortest_cycle = direct_cycle(adjascents, all_perm[i])
 
-    return shortest_path
+    return shortest_cycle
 
 
 def mk_diagram(path):
@@ -86,8 +89,7 @@ with open("./json/favorise.json") as f:
 # ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
 ingredients = ["persil", "pomme de terre", "thym", "ail"]
 
-smallest_garden = shortest_cycle(favorise, ingredients)
-garden = direct_cycle(favorise, smallest_garden)
+garden = shortest_cycle(favorise, ingredients)
 print(garden)
 
 mk_diagram(garden)
