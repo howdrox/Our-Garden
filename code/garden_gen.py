@@ -68,7 +68,7 @@ def mk_diagram(path):
 
     i = 0
     while i < len(path) - 1:
-        result += f"\n '{path[i]}' -> '{path[i + 1]}'"
+        result += f'\n "{path[i]}" -> "{path[i + 1]}"'
         i += 1
 
     result += "\n}"
