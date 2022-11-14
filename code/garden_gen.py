@@ -1,7 +1,5 @@
 import json
-
-with open("./json/favorise.json") as f:
-    favorise = json.load(f)
+import itertools
 
 
 def calcul_chemin_BFS(adjacents, depart, arrivee):
@@ -25,7 +23,7 @@ def calcul_chemin_BFS(adjacents, depart, arrivee):
     return None
 
 
-def shortest_cycle(adjascents, ingredients):
+def direct_cycle(adjascents, ingredients):
 
     if len(ingredients) < 2:
         print("Not enough ingredients")
@@ -52,6 +50,19 @@ def shortest_cycle(adjascents, ingredients):
     return result
 
 
+def shortest_cycle(adjascents, ingredients):
+    all_perm = list(itertools.permutations(ingredients, len(ingredients)))
+
+    shortest_path = all_perm[0]
+    min_lenght = len(direct_cycle(adjascents, all_perm[0]))
+    for i in range(1, len(all_perm)):
+        length = len(direct_cycle(adjascents, all_perm[i]))
+        if length < min_lenght:
+            shortest_path = all_perm[i]
+
+    return shortest_path
+
+
 def mk_diagram(path):
     result = "digraph {"
 
@@ -66,7 +77,12 @@ def mk_diagram(path):
         f.write(result)
 
 
-ingredients = ["fraisier des bois", "framboisier", "cerisier"]
-path = shortest_cycle(favorise, ingredients)
-print(path)
-mk_diagram(path)
+with open("./json/favorise.json") as f:
+    favorise = json.load(f)
+
+ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
+smallest_garden = shortest_cycle(favorise, ingredients)
+garden = direct_cycle(favorise, smallest_garden)
+print(garden)
+
+# mk_diagram(garden)
