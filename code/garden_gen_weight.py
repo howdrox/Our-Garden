@@ -20,13 +20,14 @@ def dijkstra(adj, root, final):
     while len(toExplore) != 0:
         current = toExplore.pop(0)
         for node in adj[current]:
-            toExplore.append(node)
-            oldCost = costs[node]
-            newCost = costs[current] + adj[current][node]
-            print(oldCost)
-            print(newCost)
-            if newCost < oldCost:
-                costs[node] = newCost
+            if node in adj:
+                toExplore.append(node)
+                oldCost = costs[node]
+                newCost = costs[current] + adj[current][node]
+                print(oldCost)
+                print(newCost)
+                if newCost < oldCost:
+                    costs[node] = newCost
 
     return costs[final]
 
