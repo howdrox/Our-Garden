@@ -32,4 +32,102 @@ def genIndicator():
     with open('./json/indicator.json','w+') as f:
         json.dump(indicator,f)
 
-genIndicator()
+def genCategory():
+    category={}
+    with open("./csv/data_sommets_categories.csv") as f:
+        reader=csv.reader(f,delimiter=';')
+        for source, catégorie  in reader:
+            if catégorie in category: 
+                category[catégorie].append(source)
+            else:
+                category[catégorie] = [source,]
+
+    with open('./json/category.json','w+') as f:
+        json.dump(category,f)
+
+def genIngredient():
+    ingredient = [
+    "genet",
+    "topinambour",
+    "pissenlit",
+    "cassis",
+    "lin",
+    "carotte sauvage",
+    "cumin",
+    "cerfeuil commun",
+    "melisse citronnelle",
+    "groseillier",
+    "sauge",
+    "moutarde",
+    "morelle de balbis",
+    "ciboulette chinoise",
+    "anis",
+    "panais",
+    "courgette",
+    "cornichon",
+    "bourrache officinale",
+    "sarriette",
+    "feve",
+    "melon",
+    "tournesol",
+    "echalote",
+    "thym",
+    "romarin",
+    "achillee millefeuille",
+    "prunier",
+    "framboisier",
+    "cerisier",
+    "rue fetide",
+    "navet",
+    "roquette",
+    "chicoree",
+    "epinard",
+    "artichaut",
+    "persil",
+    "agrume",
+    "lavande",
+    "rosier",
+    "tanaisie commune",
+    "courge",
+    "origan",
+    "vigne",
+    "poirier commun",
+    "trefle blanc",
+    "mache",
+    "potiron",
+    "mais",
+    "haricot",
+    "pasteque",
+    "cosmos",
+    "tomate",
+    "basilic",
+    "fenouil",
+    "celeri",
+    "betterave",
+    "coriandre",
+    "pois",
+    "camomille allemande",
+    "kiwi",
+    "pomme de terre",
+    "asperge",
+    "concombre",
+    "aneth",
+    "chou",
+    "laitue",
+    "oignon",
+    "fraisier des bois",
+    "souci",
+    "phacelie",
+    "pommier",
+    "ciboulette",
+    "pecher",
+    "ail",
+    "carotte",
+    "poireau",
+    "cresson",
+    "radis",
+]
+    with open('./json/ingredient.json','w+') as f:
+        json.dump(ingredient,f)
+
+genIngredient()
