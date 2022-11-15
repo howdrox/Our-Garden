@@ -83,8 +83,8 @@ def mk_diagram(path):
     os.system("dot -Tpng -o output.png output.dot")
 
 
-#main begins here:
-with open("./json/favorise_poids.json") as f:
+# main begins here:
+with open("./json/favorisePoids.json") as f:
     favorise = json.load(f)
 
 # ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
