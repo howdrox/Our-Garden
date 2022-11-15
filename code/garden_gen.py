@@ -87,8 +87,9 @@ def mk_diagram(path):
 with open("./json/favorisePoids.json") as f:
     favorise = json.load(f)
 
-# ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
-ingredients = ["persil", "pomme de terre", "thym", "ail"]
+ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
+# ingredients = ["persil", "pomme de terre", "thym", "ail"]
+# ingredients = ["pommier", "haricot"]
 
 garden = shortest_cycle(favorise, ingredients)
 print(garden)
