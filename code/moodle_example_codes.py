@@ -5,17 +5,13 @@ import csv
 with open("./csv/data_arcs.csv", newline="") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
 
-    adjacents = {}  # Dictionnaire contenant comme clefs les sommets et
-    # comme valeurs la liste des sommets pouvant etre rejoints
-    # depuis le sommet designe par la clef.
-    # Seuls les arcs de type "favorise" sont retenus ici.
+    adjacents = {}  
 
     for ligne in reader:
         source, interaction, cible = ligne
         if interaction == "favorise":
-            if source not in adjacents:  # si la clef n'existe pas encore
-                adjacents[source] = [cible]  # on cree l'entree
-            else:  # sinon on ajoute l'element a la liste des sommets adjacents
+            if source not in adjacents: 
+                adjacents[source] = [cible]  
                 adjacents[source].append(cible)
 
     print(adjacents)
