@@ -89,7 +89,6 @@ with open("./json/favorisePoids.json") as f:
 
 ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
 # ingredients = ["persil", "pomme de terre", "thym", "ail"]
-# ingredients = ["pommier", "haricot"]
 
 garden = shortest_cycle(favorise, ingredients)
 print(garden)

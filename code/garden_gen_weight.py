@@ -1,4 +1,6 @@
 import json
+import itertools
+import os
 
 
 def dijkstra(adj, root, final):
@@ -31,8 +33,6 @@ def dijkstra(adj, root, final):
             if paths[node]["cost"] < min_cost:
                 min_cost = paths[node]["cost"]
                 min_node = node
-                print(min_cost)
-                print(min_node)
 
         # updates cost of nodes connected to minimum
         for node in adj[min_node]:
@@ -49,18 +49,76 @@ def dijkstra(adj, root, final):
     return paths[final]
 
 
-def mk_diagram():
-    """digraph {
-      root -> a
-      root -> b [weight=2]
-      root -> c [weight=3]
-    }"""
+def cycle(adj, ingredients):
+    "Returns the cycle that goes through each `ingredients` in order"
+
+    if len(ingredients) < 2:
+        print("Not enough ingredients")
+        return []
+
+    result = {"path": [], "cost": 0}
+
+    i = 0
+    while i < len(ingredients):
+        if i == len(ingredients) - 1:
+            path = dijkstra(adj, ingredients[-1], ingredients[0])
+        else:
+            path = dijkstra(adj, ingredients[i], ingredients[i + 1])
+
+        if i == 0:
+            result["path"] += path["path"]
+            result["cost"] += path["cost"]
+        else:
+            result["path"] += path["path"][
+                1:
+            ]  # [1:] to prevent the same ingredient from being mentioned twice
+            result["cost"] += path["cost"]
+
+        i += 1
+
+    return result
 
 
-# Main function:
+def cheapest_cycle(adj, ingredients):
+    "Returns the shortest cycle that goes through each `ingredients` by checking for all possible permutations"
+    all_perm = list(itertools.permutations(ingredients, len(ingredients)))
+
+    cheapest_cycle = cycle(adj, all_perm[0])
+    min_cost = cycle(adj, all_perm[0])["cost"]
+    for i in range(1, len(all_perm)):
+        cost = cycle(adj, all_perm[i])["cost"]
+        if cost < min_cost:
+            min_cost = cost
+            cheapest_cycle = cycle(adj, all_perm[i])
+
+    return cheapest_cycle
+
+
+def mk_diagram(adj, path):
+    cycle = path["path"]
+    cost = path["cost"]
+    result = "digraph {\n"
+
+    i = 0
+    while i < len(cycle) - 1:
+        result += (
+            f'"{cycle[i]}" -> "{cycle[i + 1]}" [label={adj[cycle[i]][cycle[i + 1]]}]\n'
+        )
+        i += 1
+    result += f'label="total cost: {cost}"\n'
+    result += "}"
+
+    with open("output_weighted.dot", "w") as f:
+        f.write(result)
+
+    os.system("dot -Tpng -o output_weighted.png output_weighted.dot")
+
+
+# Main function
 with open("./json/favorisePoids.json") as f:
     favorise = json.load(f)
 
-ingredients = ["pommier", "haricot"]
-minCost = dijkstra(favorise, ingredients[1], ingredients[0])
-print(minCost)
+ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
+garden = cheapest_cycle(favorise, ingredients)
+print(garden)
+mk_diagram(favorise, garden)
