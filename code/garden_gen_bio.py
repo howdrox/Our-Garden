@@ -47,6 +47,9 @@ def dijkstra(adj, root, final):
         haveExplored.append(min_node)
         unexplored.remove(min_node)
 
+        if paths[final]["cost"] < float("inf"):
+            print(paths)
+
     return paths[final]
 
 
@@ -81,7 +84,7 @@ def cycle(adj, ingredients):
 
 
 def cheapest_cycle(adj, ingredients):
-    "Returns the cheapest cycle that goes through each `ingredients` out of all possible permutations"
+    "Returns the shortest cycle that goes through each `ingredients` by checking for all possible permutations"
     all_perm = list(itertools.permutations(ingredients, len(ingredients)))
 
     cheapest_cycle = cycle(adj, all_perm[0])
@@ -96,7 +99,6 @@ def cheapest_cycle(adj, ingredients):
 
 
 def mk_diagram(adj, path):
-    "Writes the cycle in `output_weighted.dot` and makes the diagram `output_weighted.png`"
     cycle = path["path"]
     cost = path["cost"]
     result = "digraph {\n"
@@ -123,4 +125,4 @@ with open("./json/favorisePoids.json") as f:
 ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
 garden = cheapest_cycle(favorise, ingredients)
 print(garden)
-mk_diagram(favorise, garden)
+# mk_diagram(favorise, garden)
