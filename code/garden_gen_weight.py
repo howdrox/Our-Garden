@@ -4,6 +4,7 @@ import os
 
 
 def dijkstra(adj, root, final):
+    "Uses the dijkstra algorithm to find the cheapest path from `root` to `final`"
     # Error checking
     if root not in adj or final not in adj:
         print("Invalid nodes")
@@ -80,7 +81,7 @@ def cycle(adj, ingredients):
 
 
 def cheapest_cycle(adj, ingredients):
-    "Returns the shortest cycle that goes through each `ingredients` by checking for all possible permutations"
+    "Returns the cheapest cycle that goes through each `ingredients` out of all possible permutations"
     all_perm = list(itertools.permutations(ingredients, len(ingredients)))
 
     cheapest_cycle = cycle(adj, all_perm[0])
@@ -95,6 +96,7 @@ def cheapest_cycle(adj, ingredients):
 
 
 def mk_diagram(adj, path):
+    "Writes the cycle in `output_weighted.dot` and makes the diagram `output_weighted.png`"
     cycle = path["path"]
     cost = path["cost"]
     result = "digraph {\n"
