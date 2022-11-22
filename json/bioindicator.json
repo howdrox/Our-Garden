@@ -682,5 +682,14 @@
         "nutriment": "4.0",
         "texture": "4.0",
         "organique": "4.0"
+    },
+    "framboisier": {
+        "lumiere": "5.0",
+        "temperature": "5.0",
+        "humidite": "6.0",
+        "pH": "5.0",
+        "nutriment": "6.0",
+        "texture": "2.0",
+        "organique": "4.0"
     }
 }
