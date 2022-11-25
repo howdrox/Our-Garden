@@ -691,5 +691,149 @@
         "nutriment": "6.0",
         "texture": "2.0",
         "organique": "4.0"
+    },
+    "courgette": {
+        "lumiere": "8.0",
+        "temperature": "8.0",
+        "humidite": "5.0",
+        "pH": "5.0",
+        "nutriment": "7.0",
+        "texture": "3.0",
+        "organique": "3.0"
+    },
+    "cornichon": {
+        "lumiere": "7.0",
+        "temperature": "7.0",
+        "humidite": "5.0",
+        "pH": "8.0",
+        "nutriment": "7.0",
+        "texture": "2.0",
+        "organique": "2.0"
+    },
+    "courge": {
+        "lumiere": "8.0",
+        "temperature": "8.0",
+        "humidite": "5.0",
+        "pH": "5.0",
+        "nutriment": "7.0",
+        "texture": "3.0",
+        "organique": "3.0"
+    },
+    "haricot": {
+        "lumiere": "8.0",
+        "temperature": "6.0",
+        "humidite": "5.0",
+        "pH": "6.0",
+        "nutriment": "7.0",
+        "texture": "3.0",
+        "organique": "2.0"
+    },
+    "betterave": {
+        "lumiere": "7.0",
+        "temperature": "7.0",
+        "humidite": "4.0",
+        "pH": "8.0",
+        "nutriment": "8.0",
+        "texture": "3.0",
+        "organique": "2.0"
+    },
+    "concombre": {
+        "lumiere": "7.0",
+        "temperature": "7.0",
+        "humidite": "5.0",
+        "pH": "8.0",
+        "nutriment": "7.0",
+        "texture": "2.0",
+        "organique": "2.0"
+    },
+    "chou": {
+        "lumiere": "8.0",
+        "temperature": "6.0",
+        "humidite": "8.0",
+        "pH": "7.0",
+        "nutriment": "6.0",
+        "texture": "8.0",
+        "organique": "3.0"
+    },
+    "carotte": {
+        "lumiere": "8.0",
+        "temperature": "5.0",
+        "humidite": "5.0",
+        "pH": "6.0",
+        "nutriment": "6.0",
+        "texture": "3.0",
+        "organique": "2.0"
+    },
+    "poireau": {
+        "lumiere": "8.0",
+        "temperature": "6.0",
+        "humidite": "6.0",
+        "pH": "5.0",
+        "nutriment": "8.0",
+        "texture": "2.0",
+        "organique": "3.0"
+    },
+    "melon": {
+        "lumiere": "8.0",
+        "temperature": "7.0",
+        "humidite": "5.0",
+        "pH": "5.0",
+        "nutriment": "7.0",
+        "texture": "3.0",
+        "organique": "3.0"
+    },
+    "vigne": {
+        "lumiere": "7.0",
+        "temperature": "7.0",
+        "humidite": "6.0",
+        "pH": "7.0",
+        "nutriment": "6.0",
+        "texture": "2.0",
+        "organique": "2.0"
+    },
+    "pecher": {
+        "lumiere": "8.0",
+        "temperature": "6.0",
+        "humidite": "5.0",
+        "pH": "5.0",
+        "nutriment": "5.0",
+        "texture": "3.0",
+        "organique": "2.0"
+    },
+    "cumin": {
+        "lumiere": "7.0",
+        "temperature": "3.0",
+        "humidite": "7.0",
+        "pH": "5.0",
+        "nutriment": "6.0",
+        "texture": "3.0",
+        "organique": "3.0"
+    },
+    "anis": {
+        "lumiere": "8.0",
+        "temperature": "3.0",
+        "humidite": "7.0",
+        "pH": "5.0",
+        "nutriment": "6.0",
+        "texture": "3.0",
+        "organique": "3.0"
+    },
+    "thym": {
+        "lumiere": "8.0",
+        "temperature": "8.0",
+        "humidite": "3.0",
+        "pH": "8.0",
+        "nutriment": "4.0",
+        "texture": "3.0",
+        "organique": "2.0"
+    },
+    "ciboulette": {
+        "lumiere": "7.0",
+        "temperature": "8.0",
+        "humidite": "4.0",
+        "pH": "8.0",
+        "nutriment": "7.0",
+        "texture": "3.0",
+        "organique": "2.0"
     }
 }
