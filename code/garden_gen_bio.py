@@ -1,16 +1,33 @@
 import json
+import itertools
 
 
-def check_ingredients(all_cond, ingredients, user_cond, bio):
-    compatible = dict.fromkeys(all_cond, True)
+def check_ingredients(usefull_cond, ingredients, user_cond, bio):
+    compatible = dict.fromkeys(usefull_cond, True)
 
-    for cond in all_cond:
+    for cond in usefull_cond:
         for ing in ingredients:
             if abs(float(bio[ing][cond]) - user_cond[cond]) > 2:
                 compatible[cond] = False
-                print(f"{ing} not compatible with {cond}")
+                # print(f"{ing} not compatible with {cond}")
 
-    return compatible
+    result = True
+    for i in compatible.keys():
+        if not compatible[i]:
+            result = False
+
+    return result
+
+
+def possible_ingredients(all_list, user_cond, bio, usefull_cond):
+    perm = list(itertools.combinations(all_list, 4))
+    possible = []
+
+    for i in perm:
+        if check_ingredients(usefull_cond, i, user_cond, bio):
+            possible.append(list(i))
+
+    return possible
 
 
 with open("./json/favorisePoids.json", "r") as f:
@@ -18,6 +35,13 @@ with open("./json/favorisePoids.json", "r") as f:
 
 with open("./json/bioindicator.json", "r") as b:
     bio = json.load(b)
+
+with open("./json/possibleIngredientsPerCategory.json", "r") as a:
+    all_dict = json.load(a)
+    all_list = []
+    for i in all_dict.keys():
+        if i != "fleur":
+            all_list += all_dict[i]
 
 all_cond = [
     "lumiere",
@@ -29,10 +53,18 @@ all_cond = [
     "organique",
 ]
 
+usefull_cond = [
+    "lumiere",
+    "temperature",
+    "humidite",
+    "pH",
+    "texture",
+]
+
 user_cond = {
-    "lumiere": 5.0,
+    "lumiere": 6.0,
     "temperature": 5.0,
-    "humidite": 7.0,
+    "humidite": 6.0,
     "pH": 6.0,
     "nutriment": 5.0,
     "texture": 2.0,
@@ -40,12 +72,14 @@ user_cond = {
 }
 
 ingredients = [
-    "fraisier des bois",
+    "mache",
     "framboisier",
     "cerisier",
     "cassis",
 ]
 
 
-yes = check_ingredients(all_cond, ingredients, user_cond, bio)
-print(yes)
+possible_list = possible_ingredients(all_list, user_cond, bio, usefull_cond)
+print(len(possible_list))
+
+# Has been removed: "echalote", "pasteque", "agrume", "sauge", "ciboulette chinoise"
