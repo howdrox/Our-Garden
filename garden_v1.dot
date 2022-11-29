@@ -1,0 +1,12 @@
+digraph {
+ "cassis" -> "tanaisie commune"
+ "tanaisie commune" -> "rosier"
+ "rosier" -> "rue fetide"
+ "rue fetide" -> "cerisier"
+ "cerisier" -> "rue fetide"
+ "rue fetide" -> "framboisier"
+ "framboisier" -> "souci"
+ "souci" -> "fraisier des bois"
+ "fraisier des bois" -> "ciboulette"
+ "ciboulette" -> "cassis"
+}

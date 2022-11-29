@@ -11,28 +11,30 @@ def filters(adj_weight, bio):
     return new_dict
 
 
-def update_weight(adj_weight, bio, user_cond, user_weight):
-    # Update cost based on the difference to the user's conditions and weight
-    for plant_from in adj_weight.keys():
-        for plant_to in adj_weight[plant_from].keys():
+def update_weight(user_cond, user_weight):
+    # Filters the `adj_weight` to only allow plants that are in `bioindicator.json`
+    with open("./json/bioindicator.json", "r") as f:
+        bio = json.load(f)
+    filtered = filters(adj_weight, bio)
+
+    # Update cost based on their difference to the user's conditions and weight
+    for plant_from in filtered.keys():
+        for plant_to in filtered[plant_from].keys():
             if plant_to in bio:
                 total_distance = 0
                 for cond in bio[plant_from].keys():
                     total_distance += (
                         abs(bio[plant_from][cond] - user_cond[cond]) * user_weight[cond]
                     )
-                adj_weight[plant_from][plant_to] += total_distance
+                filtered[plant_from][plant_to] += total_distance
 
     # Writes new costs in new file
-    with open("./json/favoriseBioindicator.json", "w") as new:
-        json.dump(adj_weight, new)
+    with open("./json/favoriseBioindicator.json", "w") as f:
+        json.dump(filtered, f)
 
 
 with open("./json/favorisePoids.json", "r") as f:
     adj_weight = json.load(f)
-
-with open("./json/bioindicator.json", "r") as b:
-    bio = json.load(b)
 
 
 user_cond = {
@@ -55,9 +57,7 @@ user_weight = {
     "organique": 1.0,
 }
 
-
-filtered_adj_weight = filters(adj_weight, bio)
-update_weight(filtered_adj_weight, bio, user_cond, user_weight)
+update_weight(user_cond, user_weight)
 
 
 # Has been removed: "echalote", "pasteque", "agrume", "sauge", "ciboulette chinoise"

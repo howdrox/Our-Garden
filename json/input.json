@@ -6,12 +6,21 @@
         "fraisier des bois"
     ],
     "conditions": {
-        "lumiere": "4",
-        "temperature": "4",
-        "humidite": "4",
-        "pH": "4",
-        "nutriment": "4",
-        "texture": "4",
-        "organique": "4"
+        "lumiere": 7.0,
+        "temperature": 7.0,
+        "humidite": 5.0,
+        "pH": 6.0,
+        "nutriment": 4.0,
+        "texture": 7.0,
+        "organique": 3.0
+    },
+    "weight": {
+        "lumiere": 8.0,
+        "temperature": 6.0,
+        "humidite": 4.0,
+        "pH": 3.0,
+        "nutriment": 1.0,
+        "texture": 1.0,
+        "organique": 1.0
     }
 }

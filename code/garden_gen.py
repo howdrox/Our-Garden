@@ -64,6 +64,8 @@ def shortest_cycle(adjascents, ingredients):
             min_lenght = length
             shortest_cycle = direct_cycle(adjascents, all_perm[i])
 
+    mk_diagram(shortest_cycle)
+
     return shortest_cycle
 
 
@@ -77,20 +79,18 @@ def mk_diagram(path):
 
     result += "\n}"
 
-    with open("output.dot", "w") as f:
+    with open("garden_v1.dot", "w") as f:
         f.write(result)
 
-    os.system("dot -Tpng -o output.png output.dot")
+    os.system("dot -Tpng -o garden_v1.png garden_v1.dot")
 
 
 # main begins here:
-with open("./json/favorisePoids.json") as f:
-    favorise = json.load(f)
+# with open("./json/favorisePoids.json") as f:
+#     favorise = json.load(f)
 
-ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
-# ingredients = ["persil", "pomme de terre", "thym", "ail"]
+# ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
+# # ingredients = ["persil", "pomme de terre", "thym", "ail"]
 
-garden = shortest_cycle(favorise, ingredients)
-print(garden)
-
-mk_diagram(garden)
+# garden = shortest_cycle(favorise, ingredients)
+# print(garden)

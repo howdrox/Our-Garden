@@ -95,8 +95,8 @@ def cheapest_cycle(adj, ingredients):
     return cheapest_cycle
 
 
-def mk_diagram(adj, path):
-    "Writes the cycle in `output_weighted.dot` and makes the diagram `output_weighted.png`"
+def mk_diagram(adj, path, name):
+    "Writes the cycle in `name.dot` and makes the diagram `name.png`"
     cycle = path["path"]
     cost = path["cost"]
     result = "digraph {\n"
@@ -110,17 +110,17 @@ def mk_diagram(adj, path):
     result += f'label="total cost: {cost}"\n'
     result += "}"
 
-    with open("output_weighted.dot", "w") as f:
+    with open(f"{name}.dot", "w") as f:
         f.write(result)
 
-    os.system("dot -Tpng -o output_weighted.png output_weighted.dot")
+    os.system(f"dot -Tpng -o {name}.png {name}.dot")
 
 
 # Main function
-with open("./json/favorisePoids.json") as f:
-    favorise = json.load(f)
+# with open("./json/favorisePoids.json") as f:
+#     favorise = json.load(f)
 
-ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
-garden = cheapest_cycle(favorise, ingredients)
-print(garden)
-mk_diagram(favorise, garden)
+# ingredients = ["fraisier des bois", "framboisier", "cerisier", "cassis"]
+# garden = cheapest_cycle(favorise, ingredients)
+# print(garden)
+# mk_diagram(favorise, garden, "output_weight")
