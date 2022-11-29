@@ -27,8 +27,8 @@ if os.path.exists('./json/input.json'):
     if input()=='y':
         with open("./json/input.json") as f:
             j=json.load(f)
-            ingredients = j[ingredients]
-            conditions=j[conditions]
+            ingredients = j['ingredients']
+            conditions=j['conditions']
         print('your ancient require is:')
         print(ingredients)
         print(conditions)
