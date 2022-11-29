@@ -12,21 +12,14 @@ def filters(adj_weight, bio):
 
 
 def update_weight(adj_weight, bio, user_cond, user_weight):
-    # Update cost based on the difference in conditions of the two plants and on the user's conditions and weight
+    # Update cost based on the difference to the user's conditions and weight
     for plant_from in adj_weight.keys():
         for plant_to in adj_weight[plant_from].keys():
             if plant_to in bio:
                 total_distance = 0
                 for cond in bio[plant_from].keys():
-                    # Cost from difference in conditions of the two plants
                     total_distance += (
-                        abs(bio[plant_from][cond] - bio[plant_to][cond]) / 2
-                    )
-                    # Cost from the difference to the users conditions
-                    total_distance += (
-                        abs(bio[plant_from][cond] - user_cond[cond])
-                        * user_weight[cond]
-                        / 4
+                        abs(bio[plant_from][cond] - user_cond[cond]) * user_weight[cond]
                     )
                 adj_weight[plant_from][plant_to] += total_distance
 
@@ -61,13 +54,6 @@ user_weight = {
     "texture": 1.0,
     "organique": 1.0,
 }
-
-ingredients = [
-    "mache",
-    "framboisier",
-    "cerisier",
-    "cassis",
-]
 
 
 filtered_adj_weight = filters(adj_weight, bio)
