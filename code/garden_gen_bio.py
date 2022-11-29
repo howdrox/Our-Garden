@@ -71,6 +71,14 @@ user_cond = {
     "organique": 6.0,
 }
 
+weight = {
+    "lumiere": 8.0,
+    "temperature": 6.0,
+    "humidite": 6.0,
+    "pH": 4.0,
+    "texture": 1.0,
+}
+
 ingredients = [
     "mache",
     "framboisier",
