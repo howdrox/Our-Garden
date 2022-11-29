@@ -1,0 +1,603 @@
+{
+    "ail": {
+        "pecher": 12.0,
+        "pommier": 22.5,
+        "poirier commun": 15.5,
+        "prunier": 17.5,
+        "chicoree": 24.0,
+        "pissenlit": 16.0,
+        "topinambour": 20.0,
+        "tomate": 12.5,
+        "fraisier des bois": 19.5,
+        "framboisier": 20.5,
+        "rosier": 1
+    },
+    "aneth": {
+        "chou": 21.5,
+        "concombre": 17.5,
+        "cornichon": 19.5,
+        "bette": 5,
+        "laitue": 16.5,
+        "oignon": 19.5
+    },
+    "anis": {
+        "coriandre": 20.25
+    },
+    "artichaut": {
+        "chou": 23.25,
+        "laitue": 18.25,
+        "epinard": 20.25,
+        "persil": 19.75,
+        "capucine": 7,
+        "poireau": 14.25
+    },
+    "asperge": {
+        "pomme de terre": 16.75,
+        "concombre": 18.25,
+        "persil": 15.75,
+        "tomate": 13.75,
+        "cornichon": 20.25,
+        "poireau": 12.25,
+        "pois": 13.25,
+        "courge": 11.75,
+        "basilic": 21.25,
+        "rosier d'inde": 7,
+        "capucine": 7
+    },
+    "basilic": {
+        "tomate": 13.75,
+        "piment": 7,
+        "concombre": 17.25,
+        "cornichon": 19.25,
+        "courge": 11.75,
+        "melon": 17.25,
+        "chou": 23.25,
+        "feve": 16.75,
+        "courgette": 13.75,
+        "fenouil": 15.75,
+        "asperge": 23.75
+    },
+    "betterave": {
+        "laitue": 20.5,
+        "carotte": 22.0,
+        "oignon": 24.5,
+        "chou": 26.5,
+        "celeri": 23.0,
+        "coriandre": 18.5,
+        "panais": 19.0
+    },
+    "bourrache officinale": {
+        "fraisier des bois": 22.5,
+        "haricot": 15.5
+    },
+    "camomille allemande": {
+        "chou": 20.5,
+        "oignon": 17.5,
+        "pois": 12.5,
+        "pomme de terre": 15.0
+    },
+    "carotte": {
+        "poireau": 11.5,
+        "ail": 13.5,
+        "oignon": 17.5,
+        "echalote": 9,
+        "ciboulette": 13.0,
+        "betterave": 18.0,
+        "pois": 11.5,
+        "radis": 16.0,
+        "laitue": 14.5,
+        "roquette": 19.0,
+        "panais": 14.0,
+        "tomate": 12.0,
+        "haricot": 11.0,
+        "piment": 7,
+        "lin": 10.0,
+        "romarin": 16.0,
+        "sauge": 8,
+        "absinthe": 11.0,
+        "coriandre": 14.5
+    },
+    "carotte sauvage": {
+        "chou": 19.5
+    },
+    "cassis": {
+        "ciboulette": 23.5,
+        "absinthe": 22.5,
+        "tanaisie commune": 25.0,
+        "carotte": 24.5,
+        "oignon": 28.0,
+        "navet": 27.0
+    },
+    "celeri": {
+        "chou": 20.0,
+        "poireau": 13.0,
+        "fenouil": 17.5,
+        "tomate": 15.5,
+        "haricot": 15.5,
+        "pois": 15.0,
+        "concombre": 19.0,
+        "cornichon": 21.0,
+        "bette": 5,
+        "betterave": 21.5,
+        "courgette": 16.5,
+        "courge": 14.5,
+        "potiron": 23.5
+    },
+    "cerfeuil commun": {
+        "radis": 14.5,
+        "laitue": 15.0,
+        "chou": 21.0,
+        "chicoree": 25.0
+    },
+    "cerisier": {
+        "raifort": 9.5,
+        "rue fetide": 15.5
+    },
+    "chicoree": {
+        "epinard": 26.0,
+        "roquette": 26.5,
+        "souci": 2
+    },
+    "chou": {
+        "aneth": 19.5,
+        "celeri": 21.5,
+        "haricot": 20.5,
+        "moutarde": 19.0,
+        "romarin": 22.5,
+        "tomate": 19.5,
+        "absinthe": 19.5,
+        "cosmos": 5,
+        "sauge": 8,
+        "thym": 21.0,
+        "laitue": 24.0,
+        "epinard": 26.0,
+        "oeillet d'inde": 8,
+        "capucine": 7,
+        "pomme de terre": 22.5,
+        "feve": 24.5,
+        "pois": 20.0,
+        "melisse citronnelle": 28.0,
+        "coriandre": 22.0,
+        "potiron": 28.5,
+        "chicoree": 29.0,
+        "cerfeuil commun": 28.0,
+        "cumin": 26.0,
+        "camomille allemande": 25.0,
+        "bette": 5,
+        "basilic": 29.0,
+        "artichaut": 26.0,
+        "carotte sauvage": 25.5,
+        "coquelicot": 9,
+        "concombre": 25.0,
+        "cornichon": 27.0,
+        "panais": 23.5,
+        "trefle blanc": 23.0,
+        "phacelie": 23.5,
+        "matricaire inodore": 21.5,
+        "achillee millefeuille": 6,
+        "ray-grass": 7,
+        "sarrasin": 23.5
+    },
+    "ciboulette": {
+        "carotte": 23.25,
+        "pommier": 30.25,
+        "pecher": 18.75,
+        "groseillier": 29.25,
+        "rosier d'inde": 7,
+        "cassis": 31.25,
+        "fraisier des bois": 27.25,
+        "concombre": 20.75,
+        "courge": 17.25
+    },
+    "concombre": {
+        "asperge": 25.5,
+        "celeri": 19.5,
+        "chou": 24.0,
+        "haricot": 15.5,
+        "laitue": 18.0,
+        "mais": 13.5,
+        "pois": 16.0,
+        "fenouil": 14.5,
+        "tomate": 14.5
+    },
+    "coriandre": {
+        "chou": 24.75,
+        "carotte": 21.25,
+        "pois": 17.75,
+        "betterave": 21.25,
+        "concombre": 20.75,
+        "pomme de terre": 20.25,
+        "anis": 26.25
+    },
+    "cornichon": {
+        "asperge": 25.5,
+        "celeri": 19.5,
+        "chou": 24.0,
+        "haricot": 15.5,
+        "laitue": 18.0,
+        "pois": 16.0,
+        "tomate": 14.5,
+        "fenouil": 14.5,
+        "pomme de terre": 15.5
+    },
+    "courge": {
+        "haricot": 17.5,
+        "asperge": 26.5,
+        "celeri": 22.5,
+        "chou": 26.0,
+        "laitue": 22.0,
+        "mache": 25.5,
+        "pois": 17.0,
+        "oignon": 22.0,
+        "basilic": 24.0,
+        "ciboulette": 17.5,
+        "coriandre": 19.0,
+        "origan": 25.5,
+        "capucine": 7,
+        "tanaisie commune": 21.0,
+        "tournesol": 7
+    },
+    "courgette": {
+        "asperge": 26.5,
+        "celeri": 22.5,
+        "chou": 26.0,
+        "fenouil": 19.5,
+        "haricot": 17.5,
+        "pois": 17.0,
+        "mache": 25.5,
+        "mais": 16.5,
+        "oignon": 22.0,
+        "radis": 21.5
+    },
+    "cresson": {
+        "poireau": 15.5,
+        "radis": 21.0
+    },
+    "cumin": {
+        "chou": 21.75,
+        "pois": 15.75,
+        "fenouil": 18.25,
+        "absinthe": 16.25,
+        "tomate": 16.25
+    },
+    "epinard": {
+        "chou": 22.25,
+        "rosier": 1,
+        "artichaut": 19.25,
+        "chicoree": 26.25,
+        "fraisier des bois": 21.75,
+        "haricot": 14.75,
+        "navet": 18.25,
+        "salsifis cultive": 8,
+        "radis": 15.75
+    },
+    "fenouil": {
+        "celeri": 23.0,
+        "poireau": 17.5,
+        "basilic": 25.5
+    },
+    "feve": {
+        "chou": 28.25,
+        "pomme de terre": 19.75,
+        "mais": 16.75,
+        "laitue": 23.25,
+        "sarriette": 17.75,
+        "basilic": 26.25
+    },
+    "fraisier des bois": {
+        "poireau": 12.0,
+        "ail": 13.0,
+        "ciboulette": 12.5,
+        "oignon": 18.0,
+        "pecher": 10.0
+    },
+    "framboisier": {
+        "souci": 2,
+        "ail": 12.25,
+        "prunier": 13.75,
+        "achillee millefeuille": 6,
+        "rue fetide": 16.75,
+        "tanaisie commune": 14.25
+    },
+    "groseillier": {
+        "ciboulette": 16.0,
+        "absinthe": 15.0,
+        "tanaisie commune": 17.5,
+        "carotte": 17.0,
+        "oignon": 21.5,
+        "navet": 19.5
+    },
+    "haricot": {
+        "mais": 12.75,
+        "potiron": 20.75,
+        "chou": 21.25,
+        "melon": 16.25,
+        "pasteque": 8,
+        "carotte": 15.75,
+        "celeri": 17.75,
+        "feve": 16.75,
+        "pomme de terre": 14.75,
+        "epinard": 19.25,
+        "laitue": 16.25,
+        "bourrache officinale": 19.75,
+        "capucine": 7,
+        "sarriette": 13.75,
+        "tournesol": 7,
+        "absinthe": 11.75
+    },
+    "inule visqueuse": {
+        "olivier": 28.0
+    },
+    "kiwi": {
+        "pomme de terre": 23.25
+    },
+    "laitue": {
+        "chou": 19.25,
+        "carotte": 13.75,
+        "oignon": 17.25,
+        "pois": 11.25,
+        "cardon": 8,
+        "betterave": 15.75,
+        "courge": 10.75,
+        "feve": 14.75,
+        "fraisier des bois": 17.75,
+        "melon": 15.25,
+        "haricot": 10.75,
+        "navet": 14.25,
+        "poireau": 11.25,
+        "artichaut": 16.25,
+        "cerfeuil commun": 17.25,
+        "aneth": 9.75,
+        "lin": 9.75
+    },
+    "laurier-sauce": {
+        "persil": 17.5
+    },
+    "lavande": {
+        "rosier": 1,
+        "agrume": 3
+    },
+    "lin": {
+        "carotte": 13.5,
+        "laitue": 14.0
+    },
+    "mache": {
+        "poireau": 9.25,
+        "oignon": 15.25,
+        "fraisier des bois": 13.75,
+        "trefle blanc": 10.25,
+        "potiron": 17.75
+    },
+    "mais": {
+        "haricot": 19.0,
+        "pois": 18.5,
+        "potiron": 26.0
+    },
+    "marjolaine": {
+        "piment": 7
+    },
+    "melisse citronnelle": {
+        "chou": 18.25
+    },
+    "melon": {
+        "laitue": 20.0,
+        "basilic": 23.0
+    },
+    "menthe": {
+        "pommier": 26.0,
+        "poirier commun": 19.0,
+        "camomille allemande": 19.5
+    },
+    "moutarde": {
+        "chou": 21.75,
+        "laitue": 19.75
+    },
+    "navet": {
+        "epinard": 18.5,
+        "fraisier des bois": 21.0
+    },
+    "oignon": {
+        "carotte": 18.25,
+        "laitue": 18.75,
+        "mache": 22.25,
+        "radis": 19.25,
+        "trefle blanc": 16.75
+    },
+    "origan": {
+        "courge": 9.75,
+        "concombre": 14.25,
+        "piment": 7,
+        "vigne": 16.75
+    },
+    "panais": {
+        "radis": 17.5,
+        "betterave": 18.5,
+        "chou-rave": 23.0,
+        "oignon": 21.0
+    },
+    "patate douce": {
+        "haricot": 14.0
+    },
+    "pecher": {
+        "ail": 17.25,
+        "ciboulette": 15.75,
+        "raifort": 14.75,
+        "fraisier des bois": 21.75,
+        "chenopode blanc": 1,
+        "verge d'or": 18.75,
+        "tanaisie commune": 17.25,
+        "absinthe": 13.75
+    },
+    "persil": {
+        "tomate": 12.75,
+        "oignon": 17.25,
+        "artichaut": 19.25,
+        "asperge": 20.75
+    },
+    "phacelie": {
+        "souci": 2
+    },
+    "pissenlit": {
+        "ail": 14.25
+    },
+    "poireau": {
+        "carotte": 17.5,
+        "celeri": 16.5,
+        "asperge": 22.5,
+        "laitue": 18.0,
+        "mache": 21.5,
+        "tomate": 12.5,
+        "fenouil": 15.5,
+        "artichaut": 19.0,
+        "moutarde": 12.0,
+        "cresson": 17.0,
+        "fraisier des bois": 22.5
+    },
+    "poirier commun": {
+        "trefle blanc": 11.0,
+        "nerprun alaterne": 12.5
+    },
+    "pois": {
+        "ricin": 13.5,
+        "pomme de terre": 15.0,
+        "coriandre": 15.5,
+        "sarriette": 14.0
+    },
+    "pomme de terre": {
+        "kiwi": 18.5,
+        "asperge": 25.0,
+        "camomille allemande": 19.5,
+        "capucine": 7,
+        "celeri": 18.0,
+        "chanvre": 18.5,
+        "chou": 22.5,
+        "ciboulette chinoise": 1,
+        "coriandre": 17.5,
+        "feve": 16.0,
+        "feverolle": 14.0,
+        "haricot": 14.0,
+        "morelle de balbis": 7,
+        "pois": 14.5,
+        "radis": 16.0,
+        "souci": 2
+    },
+    "pommier": {
+        "phacelie": 16.75,
+        "panicaut": 20.75,
+        "camomille allemande": 15.25,
+        "potentille": 21.25,
+        "trefle blanc": 14.25,
+        "capucine": 7,
+        "nerprun alaterne": 15.75,
+        "noyer": 18.75
+    },
+    "potiron": {
+        "haricot": 17.5,
+        "mais": 16.5,
+        "asperge": 26.5,
+        "celeri": 22.5,
+        "chou": 26.0,
+        "laitue": 22.0,
+        "mache": 25.5,
+        "pois": 17.0,
+        "oignon": 22.0,
+        "basilic": 24.0,
+        "ciboulette": 17.5,
+        "coriandre": 19.0,
+        "origan": 25.5,
+        "capucine": 7,
+        "tanaisie commune": 21.0,
+        "tournesol": 7,
+        "pommier": 27.5,
+        "radis": 21.5,
+        "brocoli": 1,
+        "artichaut": 24.0
+    },
+    "prunier": {
+        "framboisier": 17.5,
+        "cerisier": 9.5
+    },
+    "radis": {
+        "cresson": 20.75,
+        "genet": 3,
+        "cerfeuil commun": 21.75,
+        "panais": 18.25,
+        "carotte": 20.25,
+        "pois": 16.75,
+        "concombre": 16.75,
+        "cornichon": 18.75,
+        "epinard": 19.75,
+        "haricot": 16.25,
+        "celeri": 20.25,
+        "pomme de terre": 16.25,
+        "tomate": 14.25,
+        "oignon": 22.75
+    },
+    "romarin": {
+        "chou": 33.0,
+        "carotte": 30.5,
+        "achillee millefeuille": 6
+    },
+    "roquette": {
+        "betterave": 21.5,
+        "carotte": 20.5,
+        "chicoree": 28.0
+    },
+    "rue fetide": {
+        "cerisier": 25.5,
+        "rosier": 1,
+        "framboisier": 33.5
+    },
+    "sarriette": {
+        "pois": 23.25,
+        "feve": 23.75,
+        "haricot": 22.75
+    },
+    "tanaisie commune": {
+        "pecher": 16.0,
+        "rosier": 1
+    },
+    "thym": {
+        "chou": 31.5,
+        "rosier": 1,
+        "fraisier des bois": 31.0
+    },
+    "tomate": {
+        "rosier d'inde": 7,
+        "oeillet d'inde": 8,
+        "cosmos": 5,
+        "camomille allemande": 21.75,
+        "chou": 23.75,
+        "geranium": 2,
+        "inule visqueuse": 22.25,
+        "pasteque": 8,
+        "concombre": 19.75,
+        "rosier": 1,
+        "carotte": 20.25,
+        "epinard": 19.75,
+        "haricot": 16.25,
+        "oignon": 21.75,
+        "persil": 20.25,
+        "poireau": 14.75,
+        "laitue": 19.75
+    },
+    "topinambour": {
+        "epinard": 21.25
+    },
+    "trefle blanc": {
+        "chou": 18.75,
+        "fraisier des bois": 17.25,
+        "mache": 16.25,
+        "poirier commun": 11.25,
+        "mais": 11.25,
+        "pommier": 18.25,
+        "vigne": 18.25
+    },
+    "vigne": {
+        "origan": 19.25,
+        "pecher": 11.75,
+        "pommier": 23.25,
+        "rosier": 1,
+        "trefle blanc": 15.75
+    }
+}

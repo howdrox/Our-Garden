@@ -1,1 +1,17 @@
-{"ingredients": ["cassis", "cerisier", "framboisier", "fraisier des bois"], "conditions": {"lumiere": "4", "temperature": "4", "humidite": "4", "pH": "4", "nutriment": "4", "texture": "4", "organique": "4"}}
+{
+    "ingredients": [
+        "cassis",
+        "cerisier",
+        "framboisier",
+        "fraisier des bois"
+    ],
+    "conditions": {
+        "lumiere": "4",
+        "temperature": "4",
+        "humidite": "4",
+        "pH": "4",
+        "nutriment": "4",
+        "texture": "4",
+        "organique": "4"
+    }
+}
