@@ -1,13 +1,13 @@
 digraph {
-"cassis" -> "carotte" [label=44.0]
+"fraisier des bois" -> "ciboulette" [label=55.0]
+"ciboulette" -> "cassis" [label=44.0]
+"cassis" -> "carotte" [label=34.0]
 "carotte" -> "ail" [label=32.0]
-"ail" -> "prunier" [label=35.0]
+"ail" -> "prunier" [label=29.0]
 "prunier" -> "cerisier" [label=26.0]
-"cerisier" -> "rue fetide" [label=26.0]
-"rue fetide" -> "framboisier" [label=71.0]
-"framboisier" -> "ail" [label=19.0]
-"ail" -> "fraisier des bois" [label=37.0]
-"fraisier des bois" -> "ciboulette" [label=24.0]
-"ciboulette" -> "cassis" [label=59.0]
+"cerisier" -> "rue fetide" [label=66.0]
+"rue fetide" -> "framboisier" [label=24.0]
+"framboisier" -> "ail" [label=32.0]
+"ail" -> "fraisier des bois" [label=31.0]
 label="total cost: 373.0"
 }

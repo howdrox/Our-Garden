@@ -1,9 +1,9 @@
 {
     "ingredients": [
-        "cassis",
-        "cerisier",
+        "fraisier des bois",
         "framboisier",
-        "fraisier des bois"
+        "cerisier",
+        "cassis"
     ],
     "conditions": {
         "lumiere": 7.0,

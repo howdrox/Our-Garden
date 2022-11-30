@@ -1,13 +1,13 @@
 digraph {
-"cassis" -> "tanaisie commune" [label=4]
-"tanaisie commune" -> "rosier" [label=1]
-"rosier" -> "rue fetide" [label=4]
+"fraisier des bois" -> "ail" [label=4]
+"ail" -> "framboisier" [label=9]
+"framboisier" -> "rue fetide" [label=4]
 "rue fetide" -> "cerisier" [label=4]
 "cerisier" -> "rue fetide" [label=4]
-"rue fetide" -> "framboisier" [label=9]
-"framboisier" -> "souci" [label=2]
-"souci" -> "fraisier des bois" [label=9]
-"fraisier des bois" -> "ciboulette" [label=2]
+"rue fetide" -> "rosier" [label=1]
+"rosier" -> "ciboulette" [label=2]
 "ciboulette" -> "cassis" [label=6]
+"cassis" -> "ciboulette" [label=2]
+"ciboulette" -> "fraisier des bois" [label=9]
 label="total cost: 45"
 }
