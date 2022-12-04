@@ -2,7 +2,7 @@
 
 ## Report
 
-<iframe width="100%" height="800" src="report.pdf">
+The [report](report.pdf)
 
 ## Usefull sites
 
